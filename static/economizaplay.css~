@@ -1,0 +1,347 @@
+* {
+background-color:rgba(0,0,0,0);
+margin:0px;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+outline: 0px auto -webkit-focus-ring-color;  
+}
+body{
+width:100%;
+}
+a{
+text-decoration:none;
+}
+
+
+/*Cabeçalhos*/
+.cabecalho{
+width:100%;
+height:62px;
+background-color:#353533;
+position:fixed;
+z-index:99;
+color:white;
+line-height:62px;
+}
+.cabecalho p{
+margin-left:48px;
+font-size:12px;
+font-weight:600;
+font-family: serif;
+display:inline-block;
+}
+.cabecalho div{
+margin-right:48px;
+float:right;
+display:inline-block;
+margin-top: 15px;
+}
+
+.cabecalho2{
+padding-top:62px;
+width:100%;
+height:auto;
+background-color:#00b3ba;
+}
+.logo{
+font-size:15px;
+color:white;
+font-weight:700;
+font-style:italic;
+}
+
+.categories{
+width:100px;
+height:120px;
+display:inline-block;
+}
+.top-category{
+color:white;
+}
+/*Fim cabeçalhos*/
+
+/*right itens*/
+.item-right{
+display:flex;
+text-align:right;
+justify-content:flex-end;
+margin-left:auto; 
+margin-right:0;
+align-items:right;
+}
+/*right itens*/
+/*center itens*/ 
+.item-center{
+display:flex!important;
+flex-wrap:wrap!important;
+align-items: center;
+justify-content:center!important;
+text-align:center!important;
+}
+/*itens center fim*/
+
+/*Grid Container*/
+@media only screen and (min-width: 1000px) {
+.my-grid-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  font-size: 1.148698355em;
+}
+.my-grid-item{
+padding:10px;
+}
+}
+/*Fim Grid Container*/
+
+
+/*Categorias*/
+.lateral-widget{
+font-size:16px;
+padding-bottom:25px;
+margin-left:12px;
+margin-top:33px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding:10px;
+}
+.lateral-widget h2{
+font-weight:500;
+margin-left:30px;
+padding-top:25px;
+padding-bottom:25px;
+}
+
+.circle{
+list-style:none;
+}
+.circle li{
+padding-top:8px;
+padding-bottom:8px;
+}
+.circle li a{
+color:black;
+}
+
+.circle li::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid gray;
+}
+/*Fim categoirias*/
+
+
+/*Produtos ofertas roupas*/
+.container-product{
+padding-top:25px;
+}
+.produtos{
+width:250px;
+margin:8px 8px 8px 8px;
+font-size: 16px;
+box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+padding:4px;
+}
+
+.img-product img{
+width:auto;
+height:200px;
+}
+
+.img-product{
+display:inline-block;     
+}
+.juntos-div{
+display:inline-block;
+}
+
+@media only screen and (max-width: 420px) {
+
+.logo{
+display:none!important;    
+}
+.descript-product{
+width:320px!important;
+}
+
+.lateral-widget{
+margin-left:0;
+}
+    
+}
+
+/*Descição caixa*/
+.descript-product{
+width:250px;
+height:auto;
+color:white;
+background:black;
+font-size:16px;
+background:white;
+color:black;
+text-align:left;
+margin-top:8px;
+padding-top:8px;
+padding-bottom:16px;
+}
+.descript-product p{
+margin-left:16px;
+margin-right:10px;
+margin-top:8px;
+}
+
+.title-product{
+font-size:18px;
+font-weight:600;
+font-family:serif;
+margin-top:16px!important;
+overflow: hidden;
+white-space: nowrap;
+}
+.descri-product{
+font-size:16px;
+font-style:italic;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+color: gimgray;
+}
+.category-product{
+font-size:12px;
+font-weight:500;
+}
+.category-product span{
+font-size:10px;
+color:gray;
+font-weight:600;
+}
+/*Descição caixa Fim*/
+
+
+
+.btt-product{
+font-weight:600;
+color:white;
+}
+
+.faixa-product{
+width:165px;
+padding:4px;
+height:52px;
+color:white;
+float:right;
+border-radius:6px;
+background-color:#00b3ba;
+}
+
+.faixa-product:hover{
+font-size:18px;
+background-color:#008f95;
+}
+/*Fim Produtos ofertas roupas*/
+
+/*Minhas setas*/
+
+
+/*smartphone*/
+@media only screen and (max-width: 500px) {
+
+#logo{
+display: none;
+}
+
+.produtos{
+width:auto;
+margin:8px 8px 8px 8px;
+font-size: 16px;
+box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+padding:4px;
+}	
+
+}
+
+
+
+/*setas*/
+#setasBusca, #setasBuscaCompare{
+height:40px;
+padding: 20px;
+}
+/*prev e next setas*/
+.prev, .prevCompare{
+margin-left:30px;
+float:left;
+color:rgba(0,0,0,0.4);
+padding:4px;
+border:1px solid rgba(0,0,0,0.2);
+
+width: 88px;
+height: 52px;
+border-radius: 6px;
+background-color: darkgray;
+}
+.next, .nextCompare{
+margin-right:30px;
+float:right;
+color:rgba(0,0,0,0.4);
+padding:4px;
+border:1px solid rgba(0,0,0,0.2);
+
+width: 88px;
+height: 52px;
+border-radius: 6px;
+background-color: darkgray;;
+}
+.next:active{
+color:rgba(0,0,0,0.4);
+background-color:rgba(0,0,0,0.1);
+}
+.prev:active{
+color:rgba(0,0,0,0.4);
+background-color:rgba(0,0,0,0.1);
+}
+.next:hover{
+color:rgba(0,0,0,0.4);
+background-color:rgba(0,0,0,0.1);
+}
+.prev:hover{
+color:rgba(0,0,0,0.4);
+background-color:rgba(0,0,0,0.1);
+}
+
+
+
+.material-icons{
+font-size: 30px !important;
+}
+/*Fim setas minhas*/
+
+
+/*Para imagens que falharam*/
+
+.imgCategError{
+padding: 4px;
+width: 100px;
+height: 200px;
+background-color: darkgray;
+display: inline-flex;
+justify-contents: center;
+align-items: center;
+}
+
+/*Para o spiner carregando*/
+
+.spiner{
+width:185px;
+height:140px;
+display:block;
+background-image: url(../Blocks-1s-200px.gif);
+background-size: 80px 80px;
+background-repeat: no-repeat;
+background-position: center;
+}
