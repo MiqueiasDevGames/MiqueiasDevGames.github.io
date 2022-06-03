@@ -1,16 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://casadocelular.ga/</loc>
-  <lastmod>2022-06-03T12:30:57+00:00</lastmod>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://casadocelular.ga/</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartphone+5g</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartphone+dual</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartphone+pro</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartphone+samsung</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartphone+Apple</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartphone+Motorola</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=smartwatch</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=notebook</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=computador</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=fogao</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=geladeira</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=sofa</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=armario</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=cadeira+gamer</loc>
+  </url>
+  <url>
+    <loc>https://casadocelular.ga/?busca=tv</loc>
+  </url>
 </urlset>
