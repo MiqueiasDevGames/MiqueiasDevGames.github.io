@@ -28,22 +28,6 @@ background-color:#008f95;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
-.tableCabecalho{
-border-collapse:collapse;
-margin:10px;
-background-color:white;
-border: 2px solid #ccc;
-}
-
-.searchInput{
-width:100%;
-font-size: 18px;
-background-color: white;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 4px;
-border-radius: 4px;
-}
 
 
 #abaixoCabecalho{
@@ -83,7 +67,7 @@ color:#062f4f;
 /*store loja*/
 
 @media only screen and (min-width: 1000px) {
-.my-grid-container {
+.my-grid-container2 {
   display: grid;
   grid-template-columns: 40% 40%;
   font-size: 1.148698355em;
