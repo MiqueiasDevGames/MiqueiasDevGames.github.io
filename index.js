@@ -410,7 +410,7 @@ else {
 	
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#header-navigation');
+				const element = document.querySelector('#topnav');
 				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
 
 				window.scrollTo({
