@@ -392,9 +392,21 @@ document.getElementById("Page-Inicio").style.display = "block";
 
 //Scroll até o Shopping
 //window.scrollTo(0, 300);			
-const element2 = document.querySelector('#shopping-ecoplay');
-const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
+function ScrollTo(name) {
+  ScrollToResolver(document.getElementById(name));
+}
 
+function ScrollToResolver(elem) {
+  var jump = parseInt(elem.getBoundingClientRect().top * .2);
+  document.body.scrollTop += jump;
+  document.documentElement.scrollTop += jump;
+  if (!elem.lastjump || elem.lastjump > Math.abs(jump)) {
+    elem.lastjump = Math.abs(jump);
+    setTimeout(function() { ScrollToResolver(elem);}, "100");
+  } else {
+    elem.lastjump = null;
+  }
+}
 
 //Busca Sitemap
 var busca = "smartphone";
@@ -402,10 +414,7 @@ if (data.busca != undefined){
 	busca = String(decodeURIComponent(data.busca));
 	
 				//Scroll até o Shopping
-				window.scrollTo({
- 					 top: topPos2, // scroll so that the element is at the top of the view
-					  behavior: 'smooth' // smooth scroll
-				});
+				ScrollTo("ShoppingBusca");
 }
 //Busca Sitemap
 
