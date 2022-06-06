@@ -41,6 +41,17 @@ if (data.produto != undefined) {
 document.getElementById("Page-Produto").style.display = "block";
 
 
+				//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#ShoppingEconomizaPlay')
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				})
+
+
 var offer_id = data.offerid;
 var store_id = data.storeid;
 
@@ -264,19 +275,8 @@ function ComparePrecos(busca) {
 			mydivconteudo.appendChild(mydiv);
 			}
 			
-			
-				//Scroll até o Shopping
-				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#ShoppingEconomizaPlay')
-				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+		
 
-				window.scrollTo({
- 					 top: topPos, // scroll so that the element is at the top of the view
-					  behavior: 'smooth' // smooth scroll
-				})
-
-				
-			
 				//Termina spiner carregamento
 				spiner.display = 'none';	
 
@@ -390,13 +390,22 @@ else {
 	document.getElementById("Page-Inicio").style.display = "block";
 
 
-var desejaScroll = false;
+
 
 //Busca Sitemap
 var busca = "smartphone";
 if (data.busca != undefined){
-	desejaScroll = true;
 	busca = String(decodeURIComponent(data.busca));
+	
+		//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#ShoppingEconomizaPlay1')
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				})
 }
 //Busca Sitemap
 
@@ -529,17 +538,7 @@ lomadeeAPIv3.search(query, function (response) {
 		
 	}
 	
-			if (desejaScroll == true) {
-				//Scroll até o Shopping
-				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#ShoppingEconomizaPlay1')
-				const topPos = element.getBoundingClientRect().top + window.pageYOffset
-
-				window.scrollTo({
- 					 top: topPos, // scroll so that the element is at the top of the view
-					  behavior: 'smooth' // smooth scroll
-				})
-			}
+		
 	
 	//Termina spiner carregamento
 	spiner.display = 'none';	
