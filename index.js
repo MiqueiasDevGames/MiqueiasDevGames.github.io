@@ -43,13 +43,13 @@ document.getElementById("Page-Produto").style.display = "block";
 
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#ShoppingEconomizaPlay')
-				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+				const element = document.querySelector('#ShoppingEconomizaPlay');
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
 
 				window.scrollTo({
  					 top: topPos, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
-				})
+				});
 
 
 var offer_id = data.offerid;
@@ -387,9 +387,13 @@ function smoedaBRL(valor){
 }//data.produto != undefined Começa o Inicio
 else {
 	
-	document.getElementById("Page-Inicio").style.display = "block";
+document.getElementById("Page-Inicio").style.display = "block";
 
 
+//Scroll até o Shopping
+//window.scrollTo(0, 300);			
+const element2 = document.querySelector('#ShoppingBusca');
+const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
 
 
 //Busca Sitemap
@@ -398,14 +402,10 @@ if (data.busca != undefined){
 	busca = String(decodeURIComponent(data.busca));
 	
 				//Scroll até o Shopping
-				//window.scrollTo(0, 300);			
-				const element2 = document.querySelector('#ShoppingBusca')
-				const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset
-
 				window.scrollTo({
  					 top: topPos2, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
-				})
+				});
 }
 //Busca Sitemap
 
