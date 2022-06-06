@@ -529,7 +529,7 @@ lomadeeAPIv3.search(query, function (response) {
 		
 	}
 	
-	
+			if (desejaScroll == true) {
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
 				const element = document.querySelector('#ShoppingEconomizaPlay1')
@@ -539,6 +539,7 @@ lomadeeAPIv3.search(query, function (response) {
  					 top: topPos, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				})
+			}
 	
 	//Termina spiner carregamento
 	spiner.display = 'none';	
