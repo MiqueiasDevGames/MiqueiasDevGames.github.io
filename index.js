@@ -41,6 +41,8 @@ if (data.produto != undefined) {
 document.getElementById("Page-Produto").style.display = "block";
 
 
+		setTimeout(function(){
+    
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
 				const element = document.querySelector('#ShoppingEconomizaPlay');
@@ -50,6 +52,8 @@ document.getElementById("Page-Produto").style.display = "block";
  					 top: topPos, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				});
+				
+				},3000);
 
 
 var offer_id = data.offerid;
@@ -397,6 +401,8 @@ if (data.busca != undefined){
 	
 	busca = String(decodeURIComponent(data.busca));
 	
+	
+		setTimeout(function(){
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
 				const element2 = document.querySelector('#shopping-ecoplay');
@@ -406,6 +412,8 @@ if (data.busca != undefined){
  					 top: topPos2, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				});
+				
+				},3000);
 }
 //Busca Sitemap
 
