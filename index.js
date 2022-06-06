@@ -390,30 +390,21 @@ else {
 document.getElementById("Page-Inicio").style.display = "block";
 
 
-//Scroll até o Shopping
-//window.scrollTo(0, 300);		
-var scrollSim = false;	
-function ScrollTo(name) {
-  ScrollToResolver(document.getElementById(name));
-}
-
-function ScrollToResolver(elem) {
-  var jump = parseInt(elem.getBoundingClientRect().top * .2);
-  document.body.scrollTop += jump;
-  document.documentElement.scrollTop += jump;
-  if (!elem.lastjump || elem.lastjump > Math.abs(jump)) {
-    elem.lastjump = Math.abs(jump);
-    setTimeout(function() { ScrollToResolver(elem);}, "100");
-  } else {
-    elem.lastjump = null;
-  }
-}
 
 //Busca Sitemap
 var busca = "smartphone";
 if (data.busca != undefined){
 	busca = String(decodeURIComponent(data.busca));
-	scrollSim = true;
+	
+	//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#ShoppingBusca');
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				});
 }
 //Busca Sitemap
 
@@ -546,8 +537,6 @@ lomadeeAPIv3.search(query, function (response) {
 		
 	}
 	
-	//Scroll até o Shopping
-	ScrollTo("ShoppingBusca");
 	
 	//Termina spiner carregamento
 	spiner.display = 'none';	
