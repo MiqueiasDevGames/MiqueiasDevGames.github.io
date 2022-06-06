@@ -394,15 +394,16 @@ document.getElementById("Page-Inicio").style.display = "block";
 //Busca Sitemap
 var busca = "smartphone";
 if (data.busca != undefined){
+	
 	busca = String(decodeURIComponent(data.busca));
 	
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#ShoppingBusca');
-				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+				var element2 = document.querySelector('#ShoppingBusca');
+				var topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
 
 				window.scrollTo({
- 					 top: topPos, // scroll so that the element is at the top of the view
+ 					 top: topPos2, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				});
 }
@@ -410,11 +411,11 @@ else {
 	
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#topnav');
-				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+				var element3 = document.querySelector('#topnav');
+				var topPos3 = element3.getBoundingClientRect().top + window.pageYOffset;
 
 				window.scrollTo({
- 					 top: topPos, // scroll so that the element is at the top of the view
+ 					 top: topPos3, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				});
 	
