@@ -399,11 +399,11 @@ if (data.busca != undefined){
 	
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#ShoppingBusca')
-				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+				const element2 = document.querySelector('#ShoppingBusca')
+				const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset
 
 				window.scrollTo({
- 					 top: topPos, // scroll so that the element is at the top of the view
+ 					 top: topPos2, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				})
 }
