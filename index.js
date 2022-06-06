@@ -1,1 +1,729 @@
-var _0x3c298e=_0x1ccc;(function(_0x26f2b7,_0x4b895b){var _0x23f74c=_0x1ccc,_0x2667f9=_0x26f2b7();while(!![]){try{var _0x3e07d3=parseInt(_0x23f74c(0x1c4))/0x1*(parseInt(_0x23f74c(0x1b8))/0x2)+-parseInt(_0x23f74c(0x172))/0x3*(-parseInt(_0x23f74c(0x1e4))/0x4)+-parseInt(_0x23f74c(0x1ad))/0x5*(parseInt(_0x23f74c(0x1ca))/0x6)+-parseInt(_0x23f74c(0x190))/0x7+-parseInt(_0x23f74c(0x1aa))/0x8*(parseInt(_0x23f74c(0x1b0))/0x9)+parseInt(_0x23f74c(0x18d))/0xa+parseInt(_0x23f74c(0x1bf))/0xb;if(_0x3e07d3===_0x4b895b)break;else _0x2667f9['push'](_0x2667f9['shift']());}catch(_0x8da456){_0x2667f9['push'](_0x2667f9['shift']());}}}(_0x1a19,0x8046b));function _0x1ccc(_0xcac74a,_0x3755e1){var _0x1a1909=_0x1a19();return _0x1ccc=function(_0x1cccf8,_0x347993){_0x1cccf8=_0x1cccf8-0x16b;var _0x5f169f=_0x1a1909[_0x1cccf8];return _0x5f169f;},_0x1ccc(_0xcac74a,_0x3755e1);}var IdSource='',query=location['search'][_0x3c298e(0x1ba)](0x1),partes=query[_0x3c298e(0x199)]('&'),data={};partes['forEach'](function(_0x3668a1){var _0x10041b=_0x3c298e,_0x4669e2=_0x3668a1[_0x10041b(0x199)]('='),_0x325a46=_0x4669e2[0x0],_0x27a300=_0x4669e2[0x1];data[_0x325a46]=_0x27a300;});function _0x1a19(){var _0x89b9cb=['</b></p></div><div\x20class=\x22my-grid-item\x20y\x22><a\x20title=\x22','-and-','<div\x20id=\x22preCarregaImg','</strong></p><p\x20class=\x22prestacao\x22>','alt','333','busca','toLowerCase','replaceWith','/offer/_search?size=12&page=','https://economizaplay.com.br?produto=','keyCode','carregaOfertasShowCupons','floor','preCarregaImgComp','setasBusca','src','offers','</p><p></p><p\x20class=\x22category-product\x22>\x20<span></span></p></div><a\x20class=\x22btt-product\x22\x20href=\x22','sourceId','ofertas12','94568LXjDrm','\x22\x20target=\x22_blank\x22\x20><div\x20class=\x22faixa-product\x20item-center\x22>+\x20Detalhes</div></a></div>','</span><br\x20/><br\x20/><p\x20class=\x22store\x22>','\x22\x20target=\x22_blank\x22\x20href=\x22',')\x22><i\x20class=\x22material-icons\x22>forward</i></a>','\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<link\x20itemprop=\x22image\x22\x20href=\x22','\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22description\x22\x20content=\x22','getElementById','\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22priceValidUntil\x22\x20content=\x223333-11-20\x22\x20/>\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22aggregateRating\x22\x20itemtype=\x22https://schema.org/AggregateRating\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22reviewCount\x22\x20content=\x223333\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22ratingValue\x22\x20content=\x225\x22\x20/>\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22review\x22\x20itemtype=\x22https://schema.org/Review\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22author\x22\x20itemtype=\x22https://schema.org/Person\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22name\x22\x20content=\x22Casa\x20Do\x20Celular\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22reviewRating\x22\x20itemtype=\x22https://schema.org/Rating\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22ratingValue\x22\x20content=\x224\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22bestRating\x22\x20content=\x225\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22sku\x22\x20content=\x22','imgCategError','toLocaleString','appendChild','rating','produto','\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22name\x22\x20content=\x22','smartphone','1637850452838f7948983','add','quantity','scrollTo','page','keyup','thumbnail','trim','sourceid','45zJzfUJ','snippet_product_name','preCarregaImg','snippet_product_name_list','?produto=','&page=','production','</p><br\x20/><!--Grid\x20dentro\x20de\x20grid--><div\x20class=\x22my-grid-container\x20x\x22><div\x20class=\x22my-grid-item\x20alinhar-left\x22><p\x20class=\x22price\x22><span\x20class=\x22offer-label\x22>\x20a\x20partir\x20de\x20</span><strong\x20itemprop=\x22price\x22\x20>R$\x20','&keyword=','&offerid=','name','installment','undefined','div','Ou\x20<b>','totalPage','join','createElement','ErrorBuscas','status','\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22availability\x22\x20content=\x22https://schema.org/InStock\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22priceCurrency\x22\x20content=\x22BRL\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22itemCondition\x22\x20content=\x22https://schema.org/UsedCondition\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22price\x22\x20content=\x22','<div\x20itemtype=\x22https://schema.org/Product\x22\x20itemscope\x20style=\x22display:none!important\x22>\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22mpn\x22\x20content=\x22','<div\x20style=\x22width:90%;\x22\x20align=\x22left\x22\x20id=\x22ErrorBuscas\x22>\x20<h4\x20style=\x22color:steelblue;\x22>Infelizmente\x20não\x20encontramos\x20mais\x20nenhum\x20resultado.</h4>\x20<br>\x20<p>Sugestões:</p>\x20<br>\x20<ul>\x20<li\x20style=\x22margin-bottom:5px;\x22>Certifique-se\x20de\x20que\x20nenhuma\x20palavra\x20contém\x20erros\x20ortográficos;</li>\x20<li>Tente\x20utilizar\x20outras\x20palavras\x20chave.</li>\x20</ul>\x20</div>','price',')\x22><i\x20style=\x22transform:rotate(180deg);\x22\x20class=\x22material-icons\x22>forward</i></a>','setItem','product-name','2701120mwBeea','&sourceid=','produtos\x20item-center','5639438ThyCGx','&page=0&busca=','firstChild','search','storeid','next','random','store','addEventListener','split','Page-Produto','\x22\x20class=\x22img-product\x22></div><div\x20class=\x22juntos-div\x22>\x20<div\x20class=\x22loja\x22>Na\x20loja\x20','.imgErrorCateg','class','pt-br','searchInicio','&minPrice=300','data-pin-description','mydivconteudo','itemprop','<div\x20id=\x22preCarregaImgComp','listCompareProduct','style','<br\x20/><br\x20/><span\x20itemprop=\x22description\x22\x20class=\x22name\x22>','blur','link','136jIeuHP','</p><p\x20class=\x22descri-product\x22>','x\x20de\x20R$','5fazMwV','setAttribute','prev','429309GWFdPR','image','display','getItem','block','which','carregaOfertasShowCupons2','\x22><div\x20class=\x22ofertaIrLoja\x22>IR\x20Á\x20LOJA</div></a></div></div>','2MredsL','sourceIDEcoPlay0001238','slice','&storeid=','classList','&busca=','removeChild','24989822orSzGU','imgErrorCateg','\x22\x20class=\x22img-product\x22></div><div\x20class=\x22juntos-div\x22><div\x20class=\x22descript-product\x22><p\x20class=\x22title-product\x22>R$\x20','length','</div>\x20<div\x20class=\x22descript-product\x22><p\x20class=\x22title-product\x22>R$\x20','174239tOcQhO','?storeId=','\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22offers\x22\x20itemtype=\x22https://schema.org/Offer\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<link\x20itemprop=\x22url\x22\x20href=\x22','querySelector','value','error','5572878OeUVLD','pagination','innerHTML','none','<a\x20id=\x22next\x22\x20class=\x22next\x20item-center\x22\x20onclick=\x22proximaPagina('];_0x1a19=function(){return _0x89b9cb;};return _0x1a19();}data[_0x3c298e(0x1e2)]!=undefined&&localStorage[_0x3c298e(0x18b)]('sourceIDEcoPlay0001238',data[_0x3c298e(0x1e2)]);data[_0x3c298e(0x171)]!=undefined&&localStorage[_0x3c298e(0x18b)](_0x3c298e(0x1b9),data['sourceid']);data['id']!=undefined&&localStorage['setItem']('sourceIDEcoPlay0001238',data['id']);data['Id']!=undefined&&localStorage[_0x3c298e(0x18b)](_0x3c298e(0x1b9),data['Id']);(localStorage[_0x3c298e(0x1b3)]('sourceIDEcoPlay0001238')==_0x3c298e(0x17e)||localStorage[_0x3c298e(0x1b3)](_0x3c298e(0x1b9))==undefined)&&localStorage[_0x3c298e(0x18b)](_0x3c298e(0x1b9),0x23ceb52);if(data[_0x3c298e(0x1f1)]!=undefined){document[_0x3c298e(0x1eb)](_0x3c298e(0x19a))[_0x3c298e(0x1a6)][_0x3c298e(0x1b2)]=_0x3c298e(0x1b4);var offer_id=data['offerid'],store_id=data[_0x3c298e(0x194)],numero_salvo=data[_0x3c298e(0x16d)];page_number=parseInt(numero_salvo,0xa),page_number=page_number+0x1;var busca=_0x3c298e(0x1f3);data[_0x3c298e(0x1d5)]!=undefined&&(busca=String(decodeURIComponent(data[_0x3c298e(0x1d5)])));var lomadee_api_setup,valorDePage=page_number,totalPage=0x0;localStorage['getItem']('sourceIDEcoPlay0001238')!=undefined&&(IdSource=localStorage[_0x3c298e(0x1b3)](_0x3c298e(0x1b9)),lomadee_api_setup={'enviromnent':'production','appToken':_0x3c298e(0x1f4),'sourceId':IdSource},CarregarProdutoID());async function preLoadImg(_0x269c3e,_0x26698d){var _0x37eaf3=_0x3c298e;for(i=0x0;i<_0x269c3e['length'];i++){var _0x11fb2c=new Image(0x30,0x30);_0x11fb2c[_0x37eaf3(0x1df)]=_0x269c3e[i][_0x37eaf3(0x16f)],_0x11fb2c['setAttribute'](_0x37eaf3(0x19d),'imgErrorCateg'+i),_0x11fb2c[_0x37eaf3(0x1ae)](_0x37eaf3(0x1a3),_0x37eaf3(0x1b1)),_0x11fb2c[_0x37eaf3(0x1ae)](_0x37eaf3(0x1a1),_0x269c3e[i][_0x37eaf3(0x17c)]),_0x11fb2c[_0x37eaf3(0x1ae)](_0x37eaf3(0x1d3),_0x269c3e[i][_0x37eaf3(0x17c)]),document[_0x37eaf3(0x1eb)](_0x26698d+i)[_0x37eaf3(0x1ef)](_0x11fb2c),document[_0x37eaf3(0x1c7)](_0x37eaf3(0x19c)+i)[_0x37eaf3(0x198)](_0x37eaf3(0x1c9),function(){var _0x376515=_0x37eaf3,_0x53493d=document[_0x376515(0x183)](_0x376515(0x17f));_0x53493d[_0x376515(0x1bc)][_0x376515(0x1f5)](_0x376515(0x1ed)),this[_0x376515(0x1d7)](_0x53493d);});}}function CarregarProdutoID(){var _0x1e8cb3=_0x3c298e,_0x16c6f2='/offer/_id/'+offer_id+_0x1e8cb3(0x1c5)+store_id+'&sourceId='+IdSource,_0xbbeec8=document[_0x1e8cb3(0x1eb)]('oferta_principal'),_0x12965b=document[_0x1e8cb3(0x1eb)](_0x1e8cb3(0x18c)),_0x36b414='',_0x52ed0a='',_0x8e9a77='',_0x3d2d10='',_0x343f44='';lomadeeAPIv3[_0x1e8cb3(0x193)](_0x16c6f2,function(_0x8acd8a){var _0xa30308=_0x1e8cb3,_0x1e9b89=_0x8acd8a['offers'];_0xbbeec8['innerHTML']='<div\x20id=\x22preCarregaImg'+0x0+'\x22\x20class=\x22img-product\x22></div>';var _0x447f41='',_0x28ee16='';try{_0x1e9b89[0x0]['installment'][_0xa30308(0x1c8)]!=undefined&&(_0x28ee16=_0x1e9b89[0x0][_0xa30308(0x17d)]['value']);var _0x5b354d='';_0x1e9b89[0x0][_0xa30308(0x17d)][_0xa30308(0x16b)]!=undefined&&(_0x5b354d=_0x1e9b89[0x0][_0xa30308(0x17d)][_0xa30308(0x16b)],_0x447f41=_0xa30308(0x180)+_0x5b354d+_0xa30308(0x1ac)+moedaBRL(_0x28ee16));}catch(_0x1ba1e4){_0x447f41='',_0x28ee16='';}_0x12965b[_0xa30308(0x1cc)]=_0xa30308(0x1a7)+_0x1e9b89[0x0][_0xa30308(0x17c)]+_0xa30308(0x1e6)+_0x1e9b89[0x0][_0xa30308(0x197)][_0xa30308(0x17c)]+_0xa30308(0x179)+moedaBRL(_0x1e9b89[0x0]['price'])+_0xa30308(0x1d2)+_0x447f41+_0xa30308(0x1cf)+_0x1e9b89[0x0][_0xa30308(0x17c)]+_0xa30308(0x1e7)+_0x1e9b89[0x0][_0xa30308(0x1a9)]+_0xa30308(0x1b7),preLoadImg(_0x1e9b89,'preCarregaImg'),ComparePrecos(busca);var _0x3d3991=ToSeoUrl(_0x1e9b89[0x0][_0xa30308(0x17c)]),_0x15e515=_0xa30308(0x176)+_0x3d3991+_0xa30308(0x17b)+_0x1e9b89[0x0]['id']+'&storeid='+_0x1e9b89[0x0]['store']['id']+_0xa30308(0x18e)+IdSource+_0xa30308(0x177)+numero_salvo+'&busca='+busca;_0x36b414=_0x1e9b89[0x0]['name'],_0x52ed0a=_0x1e9b89[0x0][_0xa30308(0x16f)],_0x8e9a77=_0x15e515,_0x3d2d10=smoedaBRL(_0x1e9b89[0x0]['price']),_0x343f44=_0x1e9b89[0x0]['id'];var _0x4d655e=Math[_0xa30308(0x1dc)](Math[_0xa30308(0x196)]()*0x64)+0x1,_0x12408e=_0x4d655e+_0xa30308(0x1d4),_0xc76404=document[_0xa30308(0x1eb)](_0xa30308(0x173));_0xc76404[_0xa30308(0x1cc)]=_0xa30308(0x187)+_0x12408e+_0xa30308(0x1f2)+_0x36b414+_0xa30308(0x1e9)+_0x52ed0a+_0xa30308(0x1ea)+_0x36b414+_0xa30308(0x1c6)+_0x8e9a77+_0xa30308(0x186)+_0x3d2d10+_0xa30308(0x1ec)+_0x343f44+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22brand\x22\x20itemtype=\x22https://schema.org/Brand\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22name\x22\x20content=\x22ACME\x22\x20/>\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20</div>\x20\x20\x20</div>';});}function ComparePrecos(_0x3df6c7){var _0x2d828e=_0x3c298e,_0xf13775=document[_0x2d828e(0x1eb)](_0x2d828e(0x1b6))[_0x2d828e(0x1a6)];_0xf13775[_0x2d828e(0x1b2)]=_0x2d828e(0x1b4);var _0x1c9d0c=_0x2d828e(0x1d8)+valorDePage+_0x2d828e(0x17a)+_0x3df6c7+_0x2d828e(0x1a0),_0x2d3d47=document[_0x2d828e(0x1eb)](_0x2d828e(0x1a5));lomadeeAPIv3['search'](_0x1c9d0c,function(_0x11b996){var _0x4a527f=_0x2d828e,_0x28d271=_0x11b996[_0x4a527f(0x1e0)],_0x2bbcdb=valorDePage;totalPage=parseInt(_0x11b996[_0x4a527f(0x1cb)][_0x4a527f(0x181)],0xa);totalPage>=valorDePage+0x1?_0x2bbcdb=valorDePage:_0x2bbcdb=valorDePage-0x1;for(i=0x0;i<_0x28d271[_0x4a527f(0x1c2)];i++){var _0x28bb22=ToSeoUrl(_0x28d271[i][_0x4a527f(0x17c)]),_0x3f5c7d=document[_0x4a527f(0x183)]('div');_0x3f5c7d['setAttribute']('class','produtos\x20item-center');var _0x2305f8=_0x4a527f(0x176)+_0x28bb22+'&offerid='+_0x28d271[i]['id']+'&storeid='+_0x28d271[i][_0x4a527f(0x197)]['id']+_0x4a527f(0x18e)+IdSource+_0x4a527f(0x177)+_0x2bbcdb+_0x4a527f(0x1bd)+_0x3df6c7;_0x3f5c7d[_0x4a527f(0x1cc)]=_0x4a527f(0x1a4)+i+_0x4a527f(0x19b)+_0x28d271[i][_0x4a527f(0x197)]['name']+_0x4a527f(0x1c3)+moedaBRL(_0x28d271[i][_0x4a527f(0x189)])+_0x4a527f(0x1ab)+_0x28d271[i][_0x4a527f(0x17c)]+'</p><p></p><p\x20class=\x22category-product\x22>\x20<span></span></p></div><a\x20class=\x22btt-product\x22\x20href=\x22'+_0x2305f8+_0x4a527f(0x1e5),_0x2d3d47[_0x4a527f(0x1ef)](_0x3f5c7d);}_0xf13775[_0x4a527f(0x1b2)]=_0x4a527f(0x1cd),preLoadImg(_0x28d271,_0x4a527f(0x1dd)),my_itemprop(_0x28d271,_0x2bbcdb);});}function my_itemprop(_0x11d996,_0xbc3efd){var _0x5d6fdc=_0x3c298e,_0x36214e=document[_0x5d6fdc(0x1eb)](_0x5d6fdc(0x1a5)),_0x4804ff='',_0x348c53='',_0x46916a='',_0x37e012='',_0x4da43a='';for(i=0x0;i<_0x11d996[_0x5d6fdc(0x1c2)];i++){var _0x1d578d=ToSeoUrl(_0x11d996[i][_0x5d6fdc(0x17c)]),_0x1fddc9=_0x5d6fdc(0x1d9)+_0x1d578d+_0x5d6fdc(0x17b)+_0x11d996[i]['id']+_0x5d6fdc(0x1bb)+_0x11d996[i]['store']['id']+_0x5d6fdc(0x18e)+IdSource+'&page='+_0xbc3efd+_0x5d6fdc(0x1bd)+busca;_0x4804ff=_0x11d996[i][_0x5d6fdc(0x17c)],_0x348c53=_0x11d996[i][_0x5d6fdc(0x16f)],_0x46916a=_0x1fddc9,_0x37e012=smoedaBRL(_0x11d996[i]['price']),_0x4da43a=_0x11d996[i]['id'];var _0x2dea5b=Math[_0x5d6fdc(0x1dc)](Math[_0x5d6fdc(0x196)]()*0x64)+0x1,_0x31cc8e=_0x2dea5b+_0x5d6fdc(0x1d4),_0x22fef3=document[_0x5d6fdc(0x183)](_0x5d6fdc(0x17f)),_0x524e51=document[_0x5d6fdc(0x1eb)]('snippet_product_name_list');_0x22fef3[_0x5d6fdc(0x1cc)]=_0x5d6fdc(0x187)+_0x31cc8e+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22name\x22\x20content=\x22'+_0x4804ff+_0x5d6fdc(0x1e9)+_0x348c53+_0x5d6fdc(0x1ea)+_0x4804ff+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22offers\x22\x20itemtype=\x22https://schema.org/Offer\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<link\x20itemprop=\x22url\x22\x20href=\x22'+_0x46916a+_0x5d6fdc(0x186)+_0x37e012+_0x5d6fdc(0x1ec)+_0x4da43a+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22brand\x22\x20itemtype=\x22https://schema.org/Brand\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22name\x22\x20content=\x22ACME\x22\x20/>\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20</div>\x20\x20\x20</div>',_0x524e51[_0x5d6fdc(0x1ef)](_0x22fef3);}}function ToSeoUrl(_0x452787){var _0x334d43=_0x3c298e,_0x83a17d=_0x452787['toString']()['toLowerCase']();return _0x83a17d=_0x83a17d[_0x334d43(0x199)](/\&+/)[_0x334d43(0x182)]('-and-'),_0x83a17d=_0x83a17d['split'](/[^a-z0-9]/)[_0x334d43(0x182)]('-'),_0x83a17d=_0x83a17d[_0x334d43(0x199)](/-+/)[_0x334d43(0x182)]('-'),_0x83a17d=_0x83a17d['trim']('-'),_0x83a17d;}function moedaBRL(_0x533907){var _0x725257=_0x3c298e;return _0x533907['toLocaleString'](_0x725257(0x19e),{'minimumFractionDigits':0x2});}function smoedaBRL(_0x40c4e2){var _0x196d63=_0x3c298e,_0x3129a2=String(_0x40c4e2),_0x13a90c=_0x3129a2[_0x196d63(0x199)]('.')[0x0],_0x104032=_0x13a90c['toLocaleString'](_0x196d63(0x19e),{'minimumFractionDigits':0x0}),_0x15e868=_0x104032['replace'](',','.');return _0x15e868;}}else{document[_0x3c298e(0x1eb)]('Page-Inicio')[_0x3c298e(0x1a6)][_0x3c298e(0x1b2)]='block';var busca=_0x3c298e(0x1f3);data[_0x3c298e(0x1d5)]!=undefined&&(busca=String(decodeURIComponent(data[_0x3c298e(0x1d5)])));var lomadee_api_setup,filtro=_0x3c298e(0x1f0),valorDePage=0x1,totalPage=0x0;localStorage[_0x3c298e(0x1b3)](_0x3c298e(0x1b9))!=undefined&&(IdSource=localStorage[_0x3c298e(0x1b3)](_0x3c298e(0x1b9)),lomadee_api_setup={'enviromnent':_0x3c298e(0x178),'appToken':_0x3c298e(0x1f4),'sourceId':IdSource},inicio(),SetasPage());async function preLoadImg(_0x4399f5){var _0x466396=_0x3c298e;for(i=0x0;i<_0x4399f5['length'];i++){var _0x2f3868=new Image(0x30,0x30);_0x2f3868[_0x466396(0x1df)]=_0x4399f5[i][_0x466396(0x16f)],_0x2f3868['setAttribute']('class',_0x466396(0x1c0)+i),document[_0x466396(0x1eb)](_0x466396(0x174)+i)['appendChild'](_0x2f3868),document[_0x466396(0x1c7)](_0x466396(0x19c)+i)[_0x466396(0x198)](_0x466396(0x1c9),function(){var _0x2d226e=_0x466396,_0x410ce7=document[_0x2d226e(0x183)](_0x2d226e(0x17f));_0x410ce7[_0x2d226e(0x1bc)][_0x2d226e(0x1f5)]('imgCategError'),this['replaceWith'](_0x410ce7);});}}const inputBuscasKey=document[_0x3c298e(0x1eb)](_0x3c298e(0x19f));inputBuscasKey['addEventListener'](_0x3c298e(0x16e),function(_0xe6b767){var _0x5a921a=_0x3c298e,_0x408015=_0xe6b767[_0x5a921a(0x1b5)]||_0xe6b767[_0x5a921a(0x1da)];_0x408015==0xd&&(inicio(),inputBuscasKey[_0x5a921a(0x1a8)]());});function inicio(){var _0x229dbe=_0x3c298e;document[_0x229dbe(0x1eb)]('searchInicio')['value']!=''&&(busca=document[_0x229dbe(0x1eb)](_0x229dbe(0x19f))[_0x229dbe(0x1c8)]);var _0x49337e=document['getElementById'](_0x229dbe(0x1db))[_0x229dbe(0x1a6)];_0x49337e[_0x229dbe(0x1b2)]=_0x229dbe(0x1b4);var _0x387212=_0x229dbe(0x1d8)+valorDePage+_0x229dbe(0x17a)+busca+_0x229dbe(0x1a0),_0x5785e2=document[_0x229dbe(0x1eb)]('ofertas12');removerConteudoDiv(_0x229dbe(0x1a2)),_0x5785e2[_0x229dbe(0x1cc)]=_0x229dbe(0x188),document[_0x229dbe(0x1eb)]('ErrorBuscas')['style']['display']=_0x229dbe(0x1cd),lomadeeAPIv3[_0x229dbe(0x193)](_0x387212,function(_0xfdc1b0){var _0x22141f=_0x229dbe,_0x35fd29=_0xfdc1b0[_0x22141f(0x1e0)];totalPage=_0xfdc1b0['pagination'][_0x22141f(0x181)];for(i=0x0;i<_0x35fd29[_0x22141f(0x1c2)];i++){var _0x3d7d6b=ToSeoUrl(_0x35fd29[i][_0x22141f(0x17c)]),_0x2b09e8=document['createElement'](_0x22141f(0x17f));_0x2b09e8[_0x22141f(0x1ae)](_0x22141f(0x19d),_0x22141f(0x18f));var _0x5604bb=_0x22141f(0x176)+_0x3d7d6b+'&offerid='+_0x35fd29[i]['id']+_0x22141f(0x1bb)+_0x35fd29[i][_0x22141f(0x197)]['id']+_0x22141f(0x18e)+IdSource+_0x22141f(0x191)+busca;_0x2b09e8['innerHTML']=_0x22141f(0x1d1)+i+_0x22141f(0x1c1)+moedaBRL(_0x35fd29[i][_0x22141f(0x189)])+_0x22141f(0x1ab)+_0x35fd29[i]['name']+_0x22141f(0x1e1)+_0x5604bb+'\x22\x20target=\x22_blank\x22\x20><div\x20class=\x22faixa-product\x20item-center\x22>+\x20Detalhes</div></a></div>',_0x5785e2[_0x22141f(0x1ef)](_0x2b09e8);}_0x49337e[_0x22141f(0x1b2)]=_0x22141f(0x1cd),preLoadImg(_0x35fd29),my_itemprop(_0x35fd29,'0');},function(_0x589066){var _0xd0e09e=_0x229dbe;if(_0x589066[_0xd0e09e(0x185)]!=0x194){}else _0x49337e[_0xd0e09e(0x1b2)]=_0xd0e09e(0x1cd),document[_0xd0e09e(0x1eb)](_0xd0e09e(0x184))['style']['display']=_0xd0e09e(0x1b4);});}function my_itemprop(_0xe30516,_0x303590){var _0x5b6607=_0x3c298e,_0x1b439a=document[_0x5b6607(0x1eb)](_0x5b6607(0x1a5)),_0x578c79='',_0x58ced1='',_0x10d609='',_0x27668a='',_0x5bb15b='';for(i=0x0;i<_0xe30516['length'];i++){var _0xcaf05a=ToSeoUrl(_0xe30516[i][_0x5b6607(0x17c)]),_0x4c7bd0=_0x5b6607(0x1d9)+_0xcaf05a+_0x5b6607(0x17b)+_0xe30516[i]['id']+_0x5b6607(0x1bb)+_0xe30516[i]['store']['id']+_0x5b6607(0x18e)+IdSource+_0x5b6607(0x177)+_0x303590+_0x5b6607(0x1bd)+busca;_0x578c79=_0xe30516[i][_0x5b6607(0x17c)],_0x58ced1=_0xe30516[i][_0x5b6607(0x16f)],_0x10d609=_0x4c7bd0,_0x27668a=smoedaBRL(_0xe30516[i][_0x5b6607(0x189)]),_0x5bb15b=_0xe30516[i]['id'];var _0xe69de9=Math[_0x5b6607(0x1dc)](Math[_0x5b6607(0x196)]()*0x64)+0x1,_0x5a4c63=_0xe69de9+'333',_0x30619e=document[_0x5b6607(0x183)](_0x5b6607(0x17f)),_0x20e9f8=document['getElementById'](_0x5b6607(0x175));_0x30619e[_0x5b6607(0x1cc)]=_0x5b6607(0x187)+_0x5a4c63+_0x5b6607(0x1f2)+_0x578c79+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<link\x20itemprop=\x22image\x22\x20href=\x22'+_0x58ced1+_0x5b6607(0x1ea)+_0x578c79+_0x5b6607(0x1c6)+_0x10d609+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22availability\x22\x20content=\x22https://schema.org/InStock\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22priceCurrency\x22\x20content=\x22BRL\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22itemCondition\x22\x20content=\x22https://schema.org/UsedCondition\x22\x20/>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22price\x22\x20content=\x22'+_0x27668a+_0x5b6607(0x1ec)+_0x5bb15b+'\x22\x20/>\x20\x20\x20\x20\x20\x20\x20<div\x20itemprop=\x22brand\x22\x20itemtype=\x22https://schema.org/Brand\x22\x20itemscope>\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20itemprop=\x22name\x22\x20content=\x22ACME\x22\x20/>\x20\x20\x20\x20\x20\x20\x20</div>\x20\x20\x20\x20\x20</div>\x20\x20\x20</div>',_0x20e9f8[_0x5b6607(0x1ef)](_0x30619e);}}function ToSeoUrl(_0x371e24){var _0x3824d8=_0x3c298e,_0x46fa27=_0x371e24['toString']()[_0x3824d8(0x1d6)]();return _0x46fa27=_0x46fa27[_0x3824d8(0x199)](/\&+/)[_0x3824d8(0x182)](_0x3824d8(0x1d0)),_0x46fa27=_0x46fa27[_0x3824d8(0x199)](/[^a-z0-9]/)['join']('-'),_0x46fa27=_0x46fa27[_0x3824d8(0x199)](/-+/)[_0x3824d8(0x182)]('-'),_0x46fa27=_0x46fa27[_0x3824d8(0x170)]('-'),_0x46fa27;}function moedaBRL(_0xc6e489){var _0x580b95=_0x3c298e;return _0xc6e489[_0x580b95(0x1ee)](_0x580b95(0x19e),{'minimumFractionDigits':0x2});}function smoedaBRL(_0x2ad3ed){var _0x12b0d7=_0x3c298e,_0x11d0b1=String(_0x2ad3ed),_0x5a4da5=_0x11d0b1[_0x12b0d7(0x199)]('.')[0x0],_0x4f44da=_0x5a4da5[_0x12b0d7(0x1ee)](_0x12b0d7(0x19e),{'minimumFractionDigits':0x0}),_0x212b08=_0x4f44da['replace'](',','.');return _0x212b08;}var avancar=0x1,voltar=0x1;function SetasPage(){var _0x5cf76e=_0x3c298e;avancar=valorDePage+0x1;valorDePage>0x1?_0x52a528=valorDePage-0x1:_0x52a528=0x1;removerConteudoDiv(document['getElementById']('setasBusca'));var _0x38a848=_0x5cf76e(0x1ce)+avancar+_0x5cf76e(0x1e8),_0x52a528='<a\x20id=\x22prev\x22\x20class=\x22prev\x20item-center\x22\x20onclick=\x22voltarPagina('+_0x52a528+_0x5cf76e(0x18a);document[_0x5cf76e(0x1eb)](_0x5cf76e(0x1de))[_0x5cf76e(0x1cc)]=_0x38a848+_0x52a528,document[_0x5cf76e(0x1eb)](_0x5cf76e(0x195))[_0x5cf76e(0x1a6)][_0x5cf76e(0x1b2)]=_0x5cf76e(0x1b4),document[_0x5cf76e(0x1eb)](_0x5cf76e(0x1af))['style'][_0x5cf76e(0x1b2)]=_0x5cf76e(0x1b4),window[_0x5cf76e(0x16c)](0x0,0x0);}function proximaPagina(_0x4b3e13){var _0x52fd16=_0x3c298e;totalPage>=_0x4b3e13&&(valorDePage++,removerConteudoDiv(document['getElementById'](_0x52fd16(0x1e3))),inicio(),SetasPage());}function voltarPagina(_0x1e7960){var _0x5903dd=_0x3c298e;valorDePage>0x1&&(removerConteudoDiv(document[_0x5903dd(0x1eb)](_0x5903dd(0x1e3))),valorDePage--,inicio(),SetasPage());}async function removerConteudoDiv(_0x372c0e){var _0x25905b=_0x3c298e;if(_0x372c0e[_0x25905b(0x192)]!=null)while(_0x372c0e['hasChildNodes']()){_0x372c0e[_0x25905b(0x1be)](_0x372c0e['firstChild']);}}}
+//Para teste 35809558 m
+var IdSource = "";
+
+//sourceId salva para usar
+var query = location.search.slice(1);
+var partes = query.split("&");
+var data = {};
+partes.forEach(function (parte) {
+    var chaveValor = parte.split("=");
+    var chave = chaveValor[0];
+    var valor = chaveValor[1];
+    data[chave] = valor;
+});
+
+if(data.sourceId != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.sourceId);
+}
+if(data.sourceid != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.sourceid);
+}
+
+if(data.id != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.id);
+}
+if(data.Id != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.Id);
+}
+
+if(localStorage.getItem("sourceIDEcoPlay0001238") == "undefined" ||
+ localStorage.getItem("sourceIDEcoPlay0001238") == undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", 37546834);
+}
+//Fim sourceID salva para usar
+
+
+
+
+if (data.produto != undefined) {
+	
+
+document.getElementById("Page-Produto").style.display = "block";
+
+
+var offer_id = data.offerid;
+var store_id = data.storeid;
+
+
+//Paginas certas
+var numero_salvo = data.page;
+page_number = parseInt(numero_salvo, 10);	
+page_number = page_number + 1;
+
+
+//Busca Sitemap
+var busca = "smartphone";
+if (data.busca != undefined){
+	busca = String(decodeURIComponent(data.busca));
+}
+//Busca Sitemap
+
+
+//Api lomadee inicialize
+var lomadee_api_setup;
+//fim api lomadee inicialize
+
+//Valor pagina para setar pagina
+var valorDePage = page_number ;
+//Total de pagina
+var totalPage = 0;
+
+
+
+//inicio
+//Usando o sourceId armazenado
+if(localStorage.getItem("sourceIDEcoPlay0001238") != undefined){
+	IdSource = localStorage.getItem("sourceIDEcoPlay0001238");	
+	
+	lomadee_api_setup = {
+		enviromnent : 'production', //sandbox ou production
+		appToken : '1637850452838f7948983',
+		sourceId : IdSource
+	}
+	
+	
+	//Inicio
+	CarregarProdutoID();
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+//Para pré carregar imagem e impedir que a pagina
+//fique lenta esperando
+async function preLoadImg(imgURL, id) {
+	
+	for (i = 0; i < imgURL.length; i++){
+	
+		var myCategImgPre = new Image(48, 48);
+		myCategImgPre.src = imgURL[i].thumbnail;
+		myCategImgPre.setAttribute('class','imgErrorCateg'+i);
+		myCategImgPre.setAttribute('itemprop','image');
+		myCategImgPre.setAttribute('data-pin-description', imgURL[i].name );
+		myCategImgPre.setAttribute('alt', imgURL[i].name );
+		
+		
+		//envia a imagem
+		document.getElementById(id + i).appendChild(myCategImgPre);
+		
+		document.querySelector('.imgErrorCateg'+i).addEventListener('error', function () {
+
+			var div = document.createElement('div');
+					div.classList.add('imgCategError');
+					//div.innerText = '';
+					this.replaceWith(div);
+			});
+   }
+	
+}
+
+
+
+
+
+
+function CarregarProdutoID(){
+
+	var query = '/offer/_id/'+offer_id+'?storeId='+store_id+'&sourceId=' + IdSource;
+	
+	
+	//Onde vai adicionar no DOM HTMl	
+	var oferta_principal = document.getElementById("oferta_principal");
+	var product_name = document.getElementById("product-name");
+	
+	
+	//SNIPPET
+	var snippet_name  = '';
+	var snippet_image = '';
+	var snippet_link = '';
+	var snippet_price  = '';
+	var snippet_sku = '';
+
+
+	lomadeeAPIv3.search(query, function (response) {
+	
+		var meuObject = response.offers;
+		
+		oferta_principal.innerHTML = '<div id="preCarregaImg'+0+'" class="img-product"></div>'
+		
+		//Alguns produtos não tem installment
+		var prestacao = "";
+		var installment = "";
+		
+		try {
+		if (meuObject[0].installment.value != undefined) {
+			installment = meuObject[0].installment.value;
+		}
+		var quantity = ""
+		if (meuObject[0].installment.quantity != undefined) {
+			quantity = meuObject[0].installment.quantity;			
+			
+			prestacao = 'Ou <b>'+quantity+'x de R$'+moedaBRL(installment);
+		}
+	}catch (errorRecurso) {
+		prestacao = ""
+		installment = "";
+	}		
+	
+		
+		product_name.innerHTML = '<br /><br /><span itemprop="description" class="name">'+meuObject[0].name+'</span><br /><br /><p class="store">'+meuObject[0].store.name+'</p><br /><!--Grid dentro de grid--><div class="my-grid-container x"><div class="my-grid-item alinhar-left"><p class="price"><span class="offer-label"> a partir de </span><strong itemprop="price" >R$ '+moedaBRL(meuObject[0].price)+'</strong></p><p class="prestacao">'+prestacao+'</b></p></div><div class="my-grid-item y"><a title="'+meuObject[0].name+'" target="_blank" href="'+meuObject[0].link+'"><div class="ofertaIrLoja">IR Á LOJA</div></a></div></div>'
+		
+	
+		//Para carregar as imagem
+		preLoadImg(meuObject, 'preCarregaImg');
+		
+		
+		//Compare Preços
+		ComparePrecos(busca);
+			
+			
+		//SNIPPET
+		var url_amigavel = ToSeoUrl(meuObject[0].name)	
+		var my_URL = '?produto='+url_amigavel+'&offerid='+meuObject[0].id+'&storeid='+meuObject[0].store.id+'&sourceid='+IdSource+'&page='+numero_salvo+'&busca=' + busca;
+					
+		
+		snippet_name = meuObject[0].name;
+		snippet_image = meuObject[0].thumbnail;
+		snippet_link = my_URL;
+		snippet_price =  smoedaBRL(meuObject[0].price);
+		snippet_sku = meuObject[0].id;
+
+		//SNIPPET
+		var aleatorionumber = Math.floor(Math.random() * 100) + 1;
+		var mpn = aleatorionumber + "333"	;	
+		
+		var snippet_product_name = document.getElementById("snippet_product_name");
+		
+		snippet_product_name.innerHTML = '<div itemtype="https://schema.org/Product" itemscope style="display:none!important">       <meta itemprop="mpn" content="'+mpn+'" />       <meta itemprop="name" content="'+snippet_name+'" />       <link itemprop="image" href="'+snippet_image+'" />       <meta itemprop="description" content="'+snippet_name +'" />       <div itemprop="offers" itemtype="https://schema.org/Offer" itemscope>         <link itemprop="url" href="'+snippet_link+'" />         <meta itemprop="availability" content="https://schema.org/InStock" />         <meta itemprop="priceCurrency" content="BRL" />         <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />         <meta itemprop="price" content="'+snippet_price+'" />         <meta itemprop="priceValidUntil" content="3333-11-20" />       </div>       <div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>         <meta itemprop="reviewCount" content="3333" />         <meta itemprop="ratingValue" content="5" />       </div>       <div itemprop="review" itemtype="https://schema.org/Review" itemscope>         <div itemprop="author" itemtype="https://schema.org/Person" itemscope>           <meta itemprop="name" content="Casa Do Celular" />         </div>         <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>           <meta itemprop="ratingValue" content="4" />           <meta itemprop="bestRating" content="5" />         </div>       </div>       <meta itemprop="sku" content="'+snippet_sku+'" />       <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>         <meta itemprop="name" content="ACME" />       </div>     </div>   </div>';
+
+		
+		
+		});	
+		
+		
+		
+		
+}
+
+//FIM PRINCIPAL OFERTAS
+
+
+
+//Compare Preços
+function ComparePrecos(busca) {
+	
+	//Spiner carregando
+	var spiner = document.getElementById("carregaOfertasShowCupons2").style;
+	spiner.display = 'block';	
+
+	
+	var query = '/offer/_search?size=12&page=' + valorDePage + '&keyword='+busca+'&minPrice=300';
+	
+	//Onde vai adicionar no DOM HTMl	
+	var mydivconteudo = document.getElementById("listCompareProduct");
+	
+	lomadeeAPIv3.search(query, function (response) {
+		
+		var meuObject = response.offers;
+	
+		//Para o Smartphones baratos grid
+		//Para deifinir qual pagina carregar
+		//Caso clique em uma das ofertas da lista
+		var my_page = valorDePage;
+		totalPage = parseInt(response.pagination.totalPage, 10);
+		if (totalPage >= valorDePage + 1) {
+			my_page = valorDePage;
+		}
+		else {
+				my_page = valorDePage - 1;
+			}
+			
+	
+	//Para carregar as informações dos produtos
+	for (i = 0; i < meuObject.length; i++){
+	
+			var url_amigavel = ToSeoUrl(meuObject[i].name)	
+	
+	
+			var mydiv = document.createElement('div');			
+			mydiv.setAttribute('class','produtos item-center');
+			
+			
+			var my_URL = '?produto='+url_amigavel+'&offerid='+meuObject[i].id+'&storeid='+meuObject[i].store.id+'&sourceid='+IdSource+'&page='+my_page+'&busca=' + busca;
+			
+			
+			mydiv.innerHTML = '<div id="preCarregaImgComp'+i+'" class="img-product"></div><div class="juntos-div"> <div class="loja">Na loja '+meuObject[i].store.name+'</div> <div class="descript-product"><p class="title-product">R$ '+moedaBRL(meuObject[i].price)+'</p><p class="descri-product">'+meuObject[i].name+'</p><p></p><p class="category-product"> <span></span></p></div><a class="btt-product" href="'+my_URL+'" target="_blank" ><div class="faixa-product item-center">+ Detalhes</div></a></div>';
+			
+			
+			
+			mydivconteudo.appendChild(mydiv);
+			}
+			
+			
+				//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#ShoppingEconomizaPlay')
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				})
+
+				
+			
+				//Termina spiner carregamento
+				spiner.display = 'none';	
+
+			
+				//Para carregar as imagem
+				preLoadImg(meuObject, 'preCarregaImgComp');
+				
+				//Montar itempro SEO
+				my_itemprop(meuObject, my_page);
+		
+	});
+
+}
+
+
+
+
+//ItemProp
+function my_itemprop(meuObject, my_page) {
+	
+	//Onde vai adicionar no DOM HTMl	
+	var mydivconteudo = document.getElementById("listCompareProduct");
+	
+	//SNIPPET
+	var snippet_name  = '';
+	var snippet_image = '';
+	var snippet_link = '';
+	var snippet_price  = '';
+	var snippet_sku = '';
+	
+	
+	
+	for (i = 0; i < meuObject.length; i++){
+		
+		
+		var url_amigavel = ToSeoUrl(meuObject[i].name);	
+		var my_URL = 'https://economizaplay.com.br?produto='+url_amigavel+'&offerid='+meuObject[i].id+'&storeid='+meuObject[i].store.id+'&sourceid='+IdSource+'&page='+my_page+'&busca=' + busca;
+			
+		
+		//SNIPPET
+		snippet_name = meuObject[i].name;
+		snippet_image = meuObject[i].thumbnail;
+		snippet_link = my_URL;
+		snippet_price =  smoedaBRL(meuObject[i].price);
+		snippet_sku = meuObject[i].id;
+		
+	   //SNIPPET
+		var aleatorionumber = Math.floor(Math.random() * 100) + 1;
+		var mpn = aleatorionumber + "333";
+		
+		var mydiv = document.createElement('div');		
+		var snippet_product_name = document.getElementById("snippet_product_name_list");
+		
+		mydiv.innerHTML = '<div itemtype="https://schema.org/Product" itemscope style="display:none!important">       <meta itemprop="mpn" content="'+mpn+'" />       <meta itemprop="name" content="'+snippet_name+'" />       <link itemprop="image" href="'+snippet_image+'" />       <meta itemprop="description" content="'+snippet_name +'" />       <div itemprop="offers" itemtype="https://schema.org/Offer" itemscope>         <link itemprop="url" href="'+snippet_link+'" />         <meta itemprop="availability" content="https://schema.org/InStock" />         <meta itemprop="priceCurrency" content="BRL" />         <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />         <meta itemprop="price" content="'+snippet_price+'" />         <meta itemprop="priceValidUntil" content="3333-11-20" />       </div>       <div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>         <meta itemprop="reviewCount" content="3333" />         <meta itemprop="ratingValue" content="5" />       </div>       <div itemprop="review" itemtype="https://schema.org/Review" itemscope>         <div itemprop="author" itemtype="https://schema.org/Person" itemscope>           <meta itemprop="name" content="Casa Do Celular" />         </div>         <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>           <meta itemprop="ratingValue" content="4" />           <meta itemprop="bestRating" content="5" />         </div>       </div>       <meta itemprop="sku" content="'+snippet_sku+'" />       <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>         <meta itemprop="name" content="ACME" />       </div>     </div>   </div>';
+		snippet_product_name.appendChild(mydiv);
+	
+	}
+
+}
+
+
+
+//Outras funções uteis
+
+//SEO URL
+function ToSeoUrl(url) {
+        
+  // make the url lowercase         
+  var encodedUrl = url.toString().toLowerCase(); 
+
+  // replace & with and           
+  encodedUrl = encodedUrl.split(/\&+/).join("-and-")
+
+  // remove invalid characters 
+  encodedUrl = encodedUrl.split(/[^a-z0-9]/).join("-");       
+
+  // remove duplicates 
+  encodedUrl = encodedUrl.split(/-+/).join("-");
+
+  // trim leading & trailing characters 
+  encodedUrl = encodedUrl.trim('-'); 
+
+  return encodedUrl; 
+}
+
+
+// moeda brasileira
+function moedaBRL(valor){
+	return valor.toLocaleString('pt-br', {minimumFractionDigits: 2});
+}
+
+// moeda brasileira
+//Snippet
+function smoedaBRL(valor){
+	
+	var mystring = String(valor);
+	var antesponto = mystring.split('.')[0];
+	
+	var preco = antesponto.toLocaleString('pt-br', {minimumFractionDigits: 0});
+	var numero = preco.replace(",",".");
+	
+	return numero;
+	
+	
+}
+
+
+}//data.produto != undefined Começa o Inicio
+else {
+	
+	document.getElementById("Page-Inicio").style.display = "block";
+
+
+var desejaScroll = false;
+
+//Busca Sitemap
+var busca = "smartphone";
+if (data.busca != undefined){
+	desejaScroll = true;
+	busca = String(decodeURIComponent(data.busca));
+}
+//Busca Sitemap
+
+
+//Api lomadee inicialize
+var lomadee_api_setup;
+//fim api lomadee inicialize
+
+
+//filtros para pagina
+var filtro = 'rating';
+//Valor pagina para setar pagina
+var valorDePage = 1;
+//Total de pagina
+var totalPage = 0;
+
+
+//inicio
+//Usando o sourceId armazenado
+if(localStorage.getItem("sourceIDEcoPlay0001238") != undefined){
+	IdSource = localStorage.getItem("sourceIDEcoPlay0001238");	
+	
+	lomadee_api_setup = {
+		enviromnent : 'production', //sandbox ou production
+		appToken : '1637850452838f7948983',
+		sourceId : IdSource
+	}
+	
+	
+//inicia o inicio
+inicio();
+//Fim, validado e usando sourceID ou não.
+
+
+//setas
+SetasPage();
+
+}
+
+
+//Para pré carregar imagem e impedir que a pagina
+//fique lenta esperando
+async function preLoadImg(imgURL) {
+	
+	for (i = 0; i < imgURL.length; i++){
+	
+		var myCategImgPre = new Image(48, 48);
+		myCategImgPre.src = imgURL[i].thumbnail;
+		myCategImgPre.setAttribute('class','imgErrorCateg'+i);
+		
+		//envia a imagem
+		document.getElementById("preCarregaImg"+i).appendChild(myCategImgPre);
+		
+		document.querySelector('.imgErrorCateg'+i).addEventListener('error', function () {
+
+			var div = document.createElement('div');
+					div.classList.add('imgCategError');
+					//div.innerText = '';
+					this.replaceWith(div);
+			});
+   }
+	
+}
+
+
+//Tecla Enter
+//Para pegar a tecla enter, para o Buscar
+const inputBuscasKey = document.getElementById("searchInicio");
+inputBuscasKey.addEventListener('keyup', function(e){
+var key = e.which || e.keyCode;
+if(key == 13){
+    inicio();
+
+inputBuscasKey.blur();
+
+}
+});
+
+
+
+//Para iniciar a pagina inicial
+function inicio() {
+	
+	//Busca do input
+if (document.getElementById("searchInicio").value != "") {
+busca =  document.getElementById("searchInicio").value;
+}
+	
+//Spiner carregando
+var spiner = document.getElementById("carregaOfertasShowCupons").style;
+spiner.display = 'block';	
+
+
+//Fazer busca tradicional
+var query = '/offer/_search?size=12&page=' + valorDePage + '&keyword='+busca+'&minPrice=300';
+
+//Onde vai adicionar no DOM HTMl	
+var mydivconteudo = document.getElementById("ofertas12");
+removerConteudoDiv("mydivconteudo");
+
+mydivconteudo.innerHTML = '<div style="width:90%;" align="left" id="ErrorBuscas"> <h4 style="color:steelblue;">Infelizmente não encontramos mais nenhum resultado.</h4> <br> <p>Sugestões:</p> <br> <ul> <li style="margin-bottom:5px;">Certifique-se de que nenhuma palavra contém erros ortográficos;</li> <li>Tente utilizar outras palavras chave.</li> </ul> </div>';
+document.getElementById("ErrorBuscas").style.display = 'none';
+
+
+		
+	
+lomadeeAPIv3.search(query, function (response) {
+	
+	var meuObject = response.offers;
+	
+	totalPage = response.pagination.totalPage;
+	
+	//Para carregar as informações dos produtos
+	for (i = 0; i < meuObject.length; i++){
+	
+			var url_amigavel = ToSeoUrl(meuObject[i].name)	
+	
+	
+			var mydiv = document.createElement('div');			
+			mydiv.setAttribute('class','produtos item-center');
+			
+			var my_URL = '?produto='+url_amigavel+'&offerid='+meuObject[i].id+'&storeid='+meuObject[i].store.id+'&sourceid='+IdSource+'&page=0&busca=' + busca;
+			
+			mydiv.innerHTML = '<div id="preCarregaImg'+i+'" class="img-product"></div><div class="juntos-div"><div class="descript-product"><p class="title-product">R$ '+moedaBRL(meuObject[i].price)+'</p><p class="descri-product">'+meuObject[i].name+'</p><p></p><p class="category-product"> <span></span></p></div><a class="btt-product" href="'+my_URL+'" target="_blank" ><div class="faixa-product item-center">+ Detalhes</div></a></div>';
+			
+			
+			
+			mydivconteudo.appendChild(mydiv);
+			
+		
+	}
+	
+	
+				//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#ShoppingEconomizaPlay1')
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				})
+	
+	//Termina spiner carregamento
+	spiner.display = 'none';	
+	
+	
+	//Para carregar as imagem
+	preLoadImg(meuObject);
+	
+	
+	//Montar itempro SEO
+	my_itemprop(meuObject, "0");
+
+	
+
+}, function(error){
+				
+				if(error.status != 404){
+					//Problema no cliente, sem internet
+				}
+				else{
+					//Problema no servidor
+					
+					spiner.display = "none";
+					document.getElementById("ErrorBuscas").style.display = 'block';
+				
+				}
+			
+		});	
+	
+}
+
+
+//ItemProp
+function my_itemprop(meuObject, my_page) {
+	
+	//Onde vai adicionar no DOM HTMl	
+	var mydivconteudo = document.getElementById("listCompareProduct");
+	
+	//SNIPPET
+	var snippet_name  = '';
+	var snippet_image = '';
+	var snippet_link = '';
+	var snippet_price  = '';
+	var snippet_sku = '';
+	
+	
+	
+	for (i = 0; i < meuObject.length; i++){
+		
+		
+		var url_amigavel = ToSeoUrl(meuObject[i].name);	
+		var my_URL = 'https://economizaplay.com.br?produto='+url_amigavel+'&offerid='+meuObject[i].id+'&storeid='+meuObject[i].store.id+'&sourceid='+IdSource+'&page='+my_page+'&busca=' + busca;
+			
+		
+		//SNIPPET
+		snippet_name = meuObject[i].name;
+		snippet_image = meuObject[i].thumbnail;
+		snippet_link = my_URL;
+		snippet_price =  smoedaBRL(meuObject[i].price);
+		snippet_sku = meuObject[i].id;
+		
+	   //SNIPPET
+		var aleatorionumber = Math.floor(Math.random() * 100) + 1;
+		var mpn = aleatorionumber + "333";
+		
+		var mydiv = document.createElement('div');		
+		var snippet_product_name = document.getElementById("snippet_product_name_list");
+		
+		mydiv.innerHTML = '<div itemtype="https://schema.org/Product" itemscope style="display:none!important">       <meta itemprop="mpn" content="'+mpn+'" />       <meta itemprop="name" content="'+snippet_name+'" />       <link itemprop="image" href="'+snippet_image+'" />       <meta itemprop="description" content="'+snippet_name +'" />       <div itemprop="offers" itemtype="https://schema.org/Offer" itemscope>         <link itemprop="url" href="'+snippet_link+'" />         <meta itemprop="availability" content="https://schema.org/InStock" />         <meta itemprop="priceCurrency" content="BRL" />         <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />         <meta itemprop="price" content="'+snippet_price+'" />         <meta itemprop="priceValidUntil" content="3333-11-20" />       </div>       <div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>         <meta itemprop="reviewCount" content="3333" />         <meta itemprop="ratingValue" content="5" />       </div>       <div itemprop="review" itemtype="https://schema.org/Review" itemscope>         <div itemprop="author" itemtype="https://schema.org/Person" itemscope>           <meta itemprop="name" content="Casa Do Celular" />         </div>         <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>           <meta itemprop="ratingValue" content="4" />           <meta itemprop="bestRating" content="5" />         </div>       </div>       <meta itemprop="sku" content="'+snippet_sku+'" />       <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>         <meta itemprop="name" content="ACME" />       </div>     </div>   </div>';
+		snippet_product_name.appendChild(mydiv);
+	
+	}
+
+}
+
+
+//SEO URL
+function ToSeoUrl(url) {
+        
+  // make the url lowercase         
+  var encodedUrl = url.toString().toLowerCase(); 
+
+  // replace & with and           
+  encodedUrl = encodedUrl.split(/\&+/).join("-and-")
+
+  // remove invalid characters 
+  encodedUrl = encodedUrl.split(/[^a-z0-9]/).join("-");       
+
+  // remove duplicates 
+  encodedUrl = encodedUrl.split(/-+/).join("-");
+
+  // trim leading & trailing characters 
+  encodedUrl = encodedUrl.trim('-'); 
+
+  return encodedUrl; 
+}
+
+
+// moeda brasileira
+function moedaBRL(valor){
+	return valor.toLocaleString('pt-br', {minimumFractionDigits: 2});
+}
+
+// moeda brasileira
+//Snippet
+function smoedaBRL(valor){
+	
+	var mystring = String(valor);
+	var antesponto = mystring.split('.')[0];
+	
+	var preco = antesponto.toLocaleString('pt-br', {minimumFractionDigits: 0});
+	var numero = preco.replace(",",".");
+	
+	return numero;
+	
+	
+}
+
+
+//Toda a configuração das setas de avançar e voltar pagina
+var avancar = 1;
+var voltar = 1;
+function SetasPage() {
+
+		avancar = valorDePage + 1;
+			
+		if(valorDePage > 1){
+			voltar = valorDePage - 1;
+		}
+		else {
+			voltar = 1;		
+		}
+		
+		 removerConteudoDiv(document.getElementById("setasBusca"));
+	
+		
+			var proximo = '<a id="next" class="next item-center" onclick="proximaPagina('+avancar+')"><i class="material-icons">forward</i></a>';
+			var voltar = '<a id="prev" class="prev item-center" onclick="voltarPagina('+voltar+')"><i style="transform:rotate(180deg);" class="material-icons">forward</i></a>';
+			
+			//Setas de buscas e de compare preços
+			document.getElementById("setasBusca").innerHTML = proximo + voltar;
+			document.getElementById("next").style.display = "block";
+			document.getElementById("prev").style.display = "block";
+			
+			
+			window.scrollTo(0,0); 
+}
+
+
+function proximaPagina(number){
+	
+	if(totalPage >= number){
+		valorDePage++;
+		removerConteudoDiv(document.getElementById("ofertas12"));
+	
+		inicio();
+		SetasPage();
+}
+	
+}
+function voltarPagina(number){
+	
+	if(valorDePage > 1){
+	  removerConteudoDiv(document.getElementById("ofertas12"));
+	
+	  valorDePage--;
+	  inicio();
+	  SetasPage();
+	 }
+}
+
+
+//Excluir conteudo de uma div
+async function removerConteudoDiv(element){
+	//Remove conteudo anterior
+if(element.firstChild != null){
+	while (element.hasChildNodes()) {
+
+		element.removeChild(element.firstChild); 
+							   
+	}
+}
+	
+}
+
+
+
+}//Inicio
