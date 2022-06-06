@@ -396,7 +396,7 @@ var busca = "smartphone";
 if (data.busca != undefined){
 	busca = String(decodeURIComponent(data.busca));
 	
-	//Scroll até o Shopping
+				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
 				const element = document.querySelector('#ShoppingBusca');
 				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
@@ -405,6 +405,19 @@ if (data.busca != undefined){
  					 top: topPos, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				});
+}
+else {
+	
+				//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#header-navigation');
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				});
+	
 }
 //Busca Sitemap
 
