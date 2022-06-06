@@ -391,7 +391,8 @@ document.getElementById("Page-Inicio").style.display = "block";
 
 
 //Scroll até o Shopping
-//window.scrollTo(0, 300);			
+//window.scrollTo(0, 300);		
+var scrollSim = false;	
 function ScrollTo(name) {
   ScrollToResolver(document.getElementById(name));
 }
@@ -412,9 +413,7 @@ function ScrollToResolver(elem) {
 var busca = "smartphone";
 if (data.busca != undefined){
 	busca = String(decodeURIComponent(data.busca));
-	
-				//Scroll até o Shopping
-				ScrollTo("ShoppingBusca");
+	scrollSim = true;
 }
 //Busca Sitemap
 
@@ -547,7 +546,8 @@ lomadeeAPIv3.search(query, function (response) {
 		
 	}
 	
-		
+	//Scroll até o Shopping
+	ScrollTo("ShoppingBusca");
 	
 	//Termina spiner carregamento
 	spiner.display = 'none';	
