@@ -399,26 +399,13 @@ if (data.busca != undefined){
 	
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				var element2 = document.querySelector('#shopping-ecoplay');
-				var topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
+				const element2 = document.querySelector('#shopping-ecoplay');
+				const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
 
 				window.scrollTo({
  					 top: topPos2, // scroll so that the element is at the top of the view
 					  behavior: 'smooth' // smooth scroll
 				});
-}
-else {
-	
-				//Scroll até o Shopping
-				//window.scrollTo(0, 300);			
-				var element3 = document.querySelector('#topnav');
-				var topPos3 = element3.getBoundingClientRect().top + window.pageYOffset;
-
-				window.scrollTo({
- 					 top: topPos3, // scroll so that the element is at the top of the view
-					  behavior: 'smooth' // smooth scroll
-				});
-	
 }
 //Busca Sitemap
 
