@@ -397,9 +397,9 @@ var busca = "smartphone";
 if (data.busca != undefined){
 	busca = String(decodeURIComponent(data.busca));
 	
-		//Scroll até o Shopping
+				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				const element = document.querySelector('#ShoppingEconomizaPlay1')
+				const element = document.querySelector('#ShoppingBusca')
 				const topPos = element.getBoundingClientRect().top + window.pageYOffset
 
 				window.scrollTo({
