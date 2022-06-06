@@ -392,7 +392,7 @@ document.getElementById("Page-Inicio").style.display = "block";
 
 //Scroll até o Shopping
 //window.scrollTo(0, 300);			
-const element2 = document.querySelector('#ShoppingBusca');
+const element2 = document.querySelector('#shopping-ecoplay');
 const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
 
 
