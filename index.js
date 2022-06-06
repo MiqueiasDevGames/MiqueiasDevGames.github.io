@@ -399,7 +399,7 @@ if (data.busca != undefined){
 	
 				//Scroll até o Shopping
 				//window.scrollTo(0, 300);			
-				var element2 = document.querySelector('#ShoppingBusca');
+				var element2 = document.querySelector('#shopping-ecoplay');
 				var topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
 
 				window.scrollTo({
