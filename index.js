@@ -1,1 +1,591 @@
-var _0x14affb=_0x22e8;(function(_0x1999ef,_0x51effc){var _0x3fda8d=_0x22e8,_0x22c776=_0x1999ef();while(!![]){try{var _0x27f289=-parseInt(_0x3fda8d(0xf6))/0x1+parseInt(_0x3fda8d(0x13d))/0x2*(parseInt(_0x3fda8d(0x121))/0x3)+parseInt(_0x3fda8d(0x12d))/0x4+-parseInt(_0x3fda8d(0x166))/0x5+-parseInt(_0x3fda8d(0x159))/0x6+-parseInt(_0x3fda8d(0xf0))/0x7+parseInt(_0x3fda8d(0xef))/0x8;if(_0x27f289===_0x51effc)break;else _0x22c776['push'](_0x22c776['shift']());}catch(_0x2598e5){_0x22c776['push'](_0x22c776['shift']());}}}(_0x5ec3,0x6f969));var IdSource='',query=location['search']['slice'](0x1),partes=query[_0x14affb(0x15a)]('&'),data={};partes[_0x14affb(0x110)](function(_0xf40095){var _0x333b51=_0x14affb,_0x2f7b35=_0xf40095[_0x333b51(0x15a)]('='),_0x6ade16=_0x2f7b35[0x0],_0xf5c5c1=_0x2f7b35[0x1];data[_0x6ade16]=_0xf5c5c1;});data[_0x14affb(0x13b)]!=undefined&&localStorage[_0x14affb(0x118)](_0x14affb(0x132),data[_0x14affb(0x13b)]);data['sourceid']!=undefined&&localStorage[_0x14affb(0x118)](_0x14affb(0x132),data[_0x14affb(0x149)]);data['id']!=undefined&&localStorage[_0x14affb(0x118)](_0x14affb(0x132),data['id']);function _0x22e8(_0x19cd42,_0x43c0cb){var _0x5ec382=_0x5ec3();return _0x22e8=function(_0x22e8c9,_0x342dda){_0x22e8c9=_0x22e8c9-0xed;var _0x19f8c1=_0x5ec382[_0x22e8c9];return _0x19f8c1;},_0x22e8(_0x19cd42,_0x43c0cb);}data['Id']!=undefined&&localStorage['setItem'](_0x14affb(0x132),data['Id']);(localStorage['getItem']('sourceIDEcoPlay0001238')==_0x14affb(0x10a)||localStorage[_0x14affb(0x14a)](_0x14affb(0x132))==undefined)&&localStorage[_0x14affb(0x118)](_0x14affb(0x132),0x23ceb52);function _0x5ec3(){var _0x1bba71=['toLowerCase','oferta_principal','Page-Produto','16818144pzjtpU','6118154LafQKL','value','which','toString','itemprop','</p><p\x20class=\x22descri-product\x22>','595230fKFyfD','imgErrorCateg','rating','replaceWith','style','carregaOfertasShowCupons','appendChild','https://www.economizaplay.com.br/produto?produto=','smartphone','pagination','blur','keyup','installment','&storeid=','\x22\x20class=\x22img-product\x22></div><div\x20class=\x22juntos-div\x22>\x20<div\x20class=\x22loja\x22>Na\x20loja\x20','https://www.amazon.com.br/gp/search?_encoding=UTF8&tag=economizaplay-20&linkCode=ur2&linkId=2cb135290c9a3a90333d7533f6acd4c2&camp=1789&creative=9325&keywords=','top','classList','class','searchInicio','undefined','produtos\x20item-center','ErrorBuscas','page','imgCategError','src','forEach','\x22\x20><div\x20class=\x22faixa-product\x20item-center\x22>+\x20Detalhes</div></a></div>','<div\x20id=\x22preCarregaImg','ofertas12',')\x22><i\x20style=\x22transform:rotate(180deg);\x22\x20class=\x22material-icons\x22>forward</i></a>','preCarregaImgComp','#ShoppingEconomizaPlay','production','setItem','&minPrice=300','</strong></p><p\x20class=\x22prestacao\x22>','\x22\x20target=\x22_blank\x22\x20href=\x22','display','trim','<div\x20id=\x22preCarregaImgComp','busca','/offer/_id/','12189DSdOTL','.imgErrorCateg','\x22\x20class=\x22img-product\x22></div><div\x20class=\x22juntos-div\x22><div\x20class=\x22descript-product\x22><p\x20class=\x22title-product\x22>R$\x20','offers','none','<a\x20id=\x22next\x22\x20class=\x22next\x20item-center\x22\x20onclick=\x22proximaPagina(','preCarregaImg','mydivconteudo','</p><p></p><p\x20class=\x22category-product\x22>\x20<span></span></p></div><a\x20class=\x22btt-product\x22\x20href=\x22','link','&sourceId=','&keyword=','760384aKRkqj','buscando','carregaOfertasShowCupons2','/offer/_search?size=12&page=','querySelector','sourceIDEcoPlay0001238','product-name','smooth','-and-','x\x20de\x20R$','pt-br','1637850452838f7948983','<br\x20/><br\x20/><span\x20itemprop=\x22description\x22\x20class=\x22name\x22>','name','sourceId','&sourceid=','274KJdaxc','alt','store','div','createElement','keyCode','</b></p></div><div\x20class=\x22my-grid-item\x20y\x22><a\x20title=\x22','pageYOffset','error','produto','</p><br\x20/><!--Grid\x20dentro\x20de\x20grid--><div\x20class=\x22my-grid-container\x20x\x22><div\x20class=\x22my-grid-item\x20alinhar-left\x22><p\x20class=\x22price\x22><span\x20class=\x22offer-label\x22>\x20a\x20partir\x20de\x20</span><strong\x20itemprop=\x22price\x22\x20>R$\x20','prev','sourceid','getItem','setAttribute','firstChild','search','status','&page=0&busca=','getElementById','innerHTML','\x22\x20class=\x22img-product\x22></div>','&busca=','setasBusca','\x22><div\x20class=\x22ofertaIrLoja\x22>IR\x20Á\x20LOJA</div></a></div></div>','thumbnail','Ou\x20<b>','addEventListener','3442476yjOvUJ','split','toLocaleString','#shopping-ecoplay','next','\x22><div\x20class=\x22faixa-product\x20item-center\x22>+\x20Detalhes</div></a></div>','\x27\x20id=\x27amazon-link-id\x27\x20target=\x27_blank\x27><div\x20class=\x27amazon-product\x27><div><img\x20src=\x27\x27/></div><div><p>','totalPage','hasChildNodes','quantity','?storeId=','block','&offerid=','1744660lZDBJs','listCompareProduct','length','price','scrollTo'];_0x5ec3=function(){return _0x1bba71;};return _0x5ec3();}function ToSeoUrl(_0x49a2d9){var _0x385d9f=_0x14affb,_0x2caa44=_0x49a2d9[_0x385d9f(0xf3)]()[_0x385d9f(0x16b)]();return _0x2caa44=_0x2caa44[_0x385d9f(0x15a)](/\&+/)['join'](_0x385d9f(0x135)),_0x2caa44=_0x2caa44[_0x385d9f(0x15a)](/[^a-z0-9]/)['join']('-'),_0x2caa44=_0x2caa44['split'](/-+/)['join']('-'),_0x2caa44=_0x2caa44[_0x385d9f(0x11d)]('-'),_0x2caa44;}function moedaBRL(_0x42ee3f){var _0x34c789=_0x14affb;return _0x42ee3f[_0x34c789(0x15b)](_0x34c789(0x137),{'minimumFractionDigits':0x2});}if(data[_0x14affb(0x146)]!=undefined){document['getElementById'](_0x14affb(0xee))[_0x14affb(0xfa)][_0x14affb(0x11c)]=_0x14affb(0x164),setTimeout(function(){var _0x2b4376=_0x14affb;const _0x255a31=document['querySelector'](_0x2b4376(0x116)),_0x57eea0=_0x255a31['getBoundingClientRect']()[_0x2b4376(0x106)]+window[_0x2b4376(0x144)];window[_0x2b4376(0x16a)]({'top':_0x57eea0,'behavior':_0x2b4376(0x134)});},0xbb8);var offer_id=data['offerid'],store_id=data['storeid'],numero_salvo=data[_0x14affb(0x10d)];page_number=parseInt(numero_salvo,0xa),page_number=page_number+0x1;var busca=_0x14affb(0xfe);data[_0x14affb(0x11f)]!=undefined&&(busca=String(decodeURIComponent(data[_0x14affb(0x11f)])));var lomadee_api_setup,valorDePage=page_number,totalPage=0x0,buscando=![];data[_0x14affb(0x12e)]!=undefined&&(buscando=!![]);localStorage['getItem'](_0x14affb(0x132))!=undefined&&(IdSource=localStorage[_0x14affb(0x14a)]('sourceIDEcoPlay0001238'),lomadee_api_setup={'enviromnent':_0x14affb(0x117),'appToken':_0x14affb(0x138),'sourceId':IdSource},buscando==![]?CarregarProdutoID(![]):CarregarProdutoID(!![]));async function preLoadImg(_0x196e38,_0xb6b532){var _0x107cea=_0x14affb;for(i=0x0;i<_0x196e38[_0x107cea(0x168)];i++){var _0x38292d=new Image(0x30,0x30);_0x38292d[_0x107cea(0x10f)]=_0x196e38[i][_0x107cea(0x156)],_0x38292d[_0x107cea(0x14b)](_0x107cea(0x108),_0x107cea(0xf7)+i),_0x38292d['setAttribute'](_0x107cea(0xf4),'image'),_0x38292d[_0x107cea(0x14b)]('data-pin-description',_0x196e38[i][_0x107cea(0x13a)]),_0x38292d[_0x107cea(0x14b)](_0x107cea(0x13e),_0x196e38[i][_0x107cea(0x13a)]),document[_0x107cea(0x150)](_0xb6b532+i)[_0x107cea(0xfc)](_0x38292d),document[_0x107cea(0x131)](_0x107cea(0x122)+i)[_0x107cea(0x158)](_0x107cea(0x145),function(){var _0x59f9f8=_0x107cea,_0x2b2560=document['createElement'](_0x59f9f8(0x140));_0x2b2560[_0x59f9f8(0x107)]['add']('imgCategError'),this[_0x59f9f8(0xf9)](_0x2b2560);});}}function CarregarProdutoID(_0x42f3e5){var _0x53cd78=_0x14affb,_0x37fb28='';_0x42f3e5==![]?_0x37fb28=_0x53cd78(0x120)+offer_id+_0x53cd78(0x163)+store_id+_0x53cd78(0x12b)+IdSource:_0x37fb28='/offer/_search?size=12&page='+valorDePage+'&keyword='+busca+_0x53cd78(0x119);var _0x5e0c96=document[_0x53cd78(0x150)](_0x53cd78(0xed)),_0x48d486=document[_0x53cd78(0x150)](_0x53cd78(0x133));lomadeeAPIv3['search'](_0x37fb28,function(_0xfd010d){var _0x4744f8=_0x53cd78,_0x523de7=_0xfd010d['offers'];_0x5e0c96[_0x4744f8(0x151)]=_0x4744f8(0x112)+0x0+_0x4744f8(0x152);var _0x12be1c='',_0x21ae20='';try{_0x523de7[0x0][_0x4744f8(0x102)][_0x4744f8(0xf1)]!=undefined&&(_0x21ae20=_0x523de7[0x0][_0x4744f8(0x102)][_0x4744f8(0xf1)]);var _0x4f80cd='';_0x523de7[0x0][_0x4744f8(0x102)][_0x4744f8(0x162)]!=undefined&&(_0x4f80cd=_0x523de7[0x0][_0x4744f8(0x102)][_0x4744f8(0x162)],_0x12be1c=_0x4744f8(0x157)+_0x4f80cd+_0x4744f8(0x136)+moedaBRL(_0x21ae20));}catch(_0x460532){_0x12be1c='',_0x21ae20='';}_0x48d486[_0x4744f8(0x151)]=_0x4744f8(0x139)+_0x523de7[0x0][_0x4744f8(0x13a)]+'</span><br\x20/><br\x20/><p\x20class=\x22store\x22>'+_0x523de7[0x0][_0x4744f8(0x13f)][_0x4744f8(0x13a)]+_0x4744f8(0x147)+moedaBRL(_0x523de7[0x0]['price'])+_0x4744f8(0x11a)+_0x12be1c+_0x4744f8(0x143)+_0x523de7[0x0]['name']+_0x4744f8(0x11b)+_0x523de7[0x0][_0x4744f8(0x12a)]+_0x4744f8(0x155),preLoadImg(_0x523de7,_0x4744f8(0x127));}),ComparePrecos(busca);}function ComparePrecos(_0x521b3e){var _0xec3f08=_0x14affb,_0x5cfec6=document[_0xec3f08(0x150)](_0xec3f08(0x12f))['style'];_0x5cfec6[_0xec3f08(0x11c)]='block';var _0x4e4df2=_0xec3f08(0x130)+valorDePage+_0xec3f08(0x12c)+_0x521b3e+'&minPrice=300',_0x5785f8=document[_0xec3f08(0x150)](_0xec3f08(0x167));lomadeeAPIv3[_0xec3f08(0x14d)](_0x4e4df2,function(_0x611f56){var _0x2b0434=_0xec3f08,_0x266c1c=_0x611f56['offers'],_0x408093=valorDePage;totalPage=parseInt(_0x611f56['pagination'][_0x2b0434(0x160)],0xa);totalPage>=valorDePage+0x1?_0x408093=valorDePage:_0x408093=valorDePage-0x1;for(i=0x0;i<_0x266c1c[_0x2b0434(0x168)];i++){var _0x418f6f=ToSeoUrl(_0x266c1c[i][_0x2b0434(0x13a)]),_0x1cd2f7=document[_0x2b0434(0x141)](_0x2b0434(0x140));_0x1cd2f7[_0x2b0434(0x14b)]('class',_0x2b0434(0x10b));var _0x4f2ae3=_0x2b0434(0xfd)+_0x418f6f+_0x2b0434(0x165)+_0x266c1c[i]['id']+'&storeid='+_0x266c1c[i][_0x2b0434(0x13f)]['id']+_0x2b0434(0x13c)+IdSource+'&page='+_0x408093+_0x2b0434(0x153)+_0x521b3e;_0x1cd2f7[_0x2b0434(0x151)]=_0x2b0434(0x11e)+i+_0x2b0434(0x104)+_0x266c1c[i][_0x2b0434(0x13f)]['name']+'</div>\x20<div\x20class=\x22descript-product\x22><p\x20class=\x22title-product\x22>R$\x20'+moedaBRL(_0x266c1c[i]['price'])+'</p><p\x20class=\x22descri-product\x22>'+_0x266c1c[i][_0x2b0434(0x13a)]+_0x2b0434(0x129)+_0x4f2ae3+_0x2b0434(0x15e),_0x5785f8[_0x2b0434(0xfc)](_0x1cd2f7);}_0x5cfec6[_0x2b0434(0x11c)]=_0x2b0434(0x125),preLoadImg(_0x266c1c,_0x2b0434(0x115));},function(_0x59ab5e){var _0x12acb4=_0xec3f08;if(_0x59ab5e['status']!=0x194){}else{_0x5cfec6[_0x12acb4(0x11c)]=_0x12acb4(0x125);var _0x23c492=_0x12acb4(0x105)+_0x521b3e;_0x5785f8[_0x12acb4(0x151)]='<div\x20class=\x27amazon-txt\x27><p><b>CONFIRA\x20O\x20PREÇO\x20NA\x20AMAZON</b></p></div><a\x20\x20href=\x27'+_0x23c492+_0x12acb4(0x15f)+_0x521b3e+'</p></div><div><img\x20height=\x27110\x27\x20src=\x27https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-V7SR7dlGyXJktZ3dw1fSbtoic6nNOtD0Kq-Po58yd-OWaHfSAjuE5mCAfRbUzFtw6xIAs1z52SxcoI06n6gFTaAYw63X03CidTBzWXpxcy0ne87W8IWf6_7ON2xp3-lCjY3Qc2_apN1rV5hj-tVwv61HuMWl3LtY3GAjNUKPM1RL3w85WQaE9puLg/s16000/images.png\x27/></div></div>';}});}}else{document['getElementById']('Page-Inicio')['style'][_0x14affb(0x11c)]=_0x14affb(0x164);var busca=_0x14affb(0xfe);data[_0x14affb(0x11f)]!=undefined&&(busca=String(decodeURIComponent(data[_0x14affb(0x11f)])),setTimeout(function(){var _0x4c5e8e=_0x14affb;const _0x32bfd=document[_0x4c5e8e(0x131)](_0x4c5e8e(0x15c)),_0x5c5965=_0x32bfd['getBoundingClientRect']()[_0x4c5e8e(0x106)]+window['pageYOffset'];window[_0x4c5e8e(0x16a)]({'top':_0x5c5965,'behavior':_0x4c5e8e(0x134)});},0xbb8));var lomadee_api_setup,filtro=_0x14affb(0xf8),valorDePage=0x1,totalPage=0x0;localStorage[_0x14affb(0x14a)](_0x14affb(0x132))!=undefined&&(IdSource=localStorage[_0x14affb(0x14a)](_0x14affb(0x132)),lomadee_api_setup={'enviromnent':_0x14affb(0x117),'appToken':_0x14affb(0x138),'sourceId':IdSource},inicio(),SetasPage());async function preLoadImg(_0xcceae8){var _0x375157=_0x14affb;for(i=0x0;i<_0xcceae8[_0x375157(0x168)];i++){var _0x1999d8=new Image(0x30,0x30);_0x1999d8['src']=_0xcceae8[i][_0x375157(0x156)],_0x1999d8['setAttribute'](_0x375157(0x108),'imgErrorCateg'+i),document[_0x375157(0x150)](_0x375157(0x127)+i)['appendChild'](_0x1999d8),document[_0x375157(0x131)]('.imgErrorCateg'+i)[_0x375157(0x158)](_0x375157(0x145),function(){var _0x40efb5=_0x375157,_0x4fce36=document[_0x40efb5(0x141)]('div');_0x4fce36[_0x40efb5(0x107)]['add'](_0x40efb5(0x10e)),this[_0x40efb5(0xf9)](_0x4fce36);});}}const inputBuscasKey=document[_0x14affb(0x150)](_0x14affb(0x109));inputBuscasKey[_0x14affb(0x158)](_0x14affb(0x101),function(_0x100c9f){var _0x4f165f=_0x14affb,_0x52a859=_0x100c9f[_0x4f165f(0xf2)]||_0x100c9f[_0x4f165f(0x142)];_0x52a859==0xd&&(inicio(),inputBuscasKey[_0x4f165f(0x100)]());});function inicio(){var _0x44cf40=_0x14affb;document[_0x44cf40(0x150)](_0x44cf40(0x109))[_0x44cf40(0xf1)]!=''&&(busca=document[_0x44cf40(0x150)](_0x44cf40(0x109))[_0x44cf40(0xf1)]);var _0x5f405f=document[_0x44cf40(0x150)](_0x44cf40(0xfb))[_0x44cf40(0xfa)];_0x5f405f['display']=_0x44cf40(0x164);var _0x58ec21=_0x44cf40(0x130)+valorDePage+'&keyword='+busca+_0x44cf40(0x119),_0xdf6737=document[_0x44cf40(0x150)]('ofertas12');removerConteudoDiv(_0x44cf40(0x128)),_0xdf6737[_0x44cf40(0x151)]='<div\x20style=\x22width:90%;\x22\x20align=\x22left\x22\x20id=\x22ErrorBuscas\x22>\x20<h4\x20style=\x22color:steelblue;\x22>Infelizmente\x20não\x20encontramos\x20mais\x20nenhum\x20resultado.</h4>\x20<br>\x20<p>Sugestões:</p>\x20<br>\x20<ul>\x20<li\x20style=\x22margin-bottom:5px;\x22>Certifique-se\x20de\x20que\x20nenhuma\x20palavra\x20contém\x20erros\x20ortográficos;</li>\x20<li>Tente\x20utilizar\x20outras\x20palavras\x20chave.</li>\x20</ul>\x20</div>',document[_0x44cf40(0x150)](_0x44cf40(0x10c))[_0x44cf40(0xfa)][_0x44cf40(0x11c)]=_0x44cf40(0x125),lomadeeAPIv3[_0x44cf40(0x14d)](_0x58ec21,function(_0x7d5982){var _0x1b7995=_0x44cf40,_0x5c23c1=_0x7d5982[_0x1b7995(0x124)];totalPage=_0x7d5982[_0x1b7995(0xff)][_0x1b7995(0x160)];for(i=0x0;i<_0x5c23c1[_0x1b7995(0x168)];i++){var _0xfaef21=ToSeoUrl(_0x5c23c1[i]['name']),_0x549d2f=document['createElement'](_0x1b7995(0x140));_0x549d2f[_0x1b7995(0x14b)]('class','produtos\x20item-center');var _0x2e7ba1=_0x1b7995(0xfd)+_0xfaef21+_0x1b7995(0x165)+_0x5c23c1[i]['id']+_0x1b7995(0x103)+_0x5c23c1[i][_0x1b7995(0x13f)]['id']+_0x1b7995(0x13c)+IdSource+_0x1b7995(0x14f)+busca;_0x549d2f[_0x1b7995(0x151)]=_0x1b7995(0x112)+i+_0x1b7995(0x123)+moedaBRL(_0x5c23c1[i][_0x1b7995(0x169)])+_0x1b7995(0xf5)+_0x5c23c1[i]['name']+_0x1b7995(0x129)+_0x2e7ba1+_0x1b7995(0x111),_0xdf6737[_0x1b7995(0xfc)](_0x549d2f);}_0x5f405f['display']=_0x1b7995(0x125),preLoadImg(_0x5c23c1);},function(_0x5c781d){var _0x264177=_0x44cf40;if(_0x5c781d[_0x264177(0x14e)]!=0x194){}else _0x5f405f[_0x264177(0x11c)]='none',document[_0x264177(0x150)](_0x264177(0x10c))[_0x264177(0xfa)]['display']=_0x264177(0x164);});}var avancar=0x1,voltar=0x1;function SetasPage(){var _0x474fc7=_0x14affb;avancar=valorDePage+0x1;valorDePage>0x1?_0x3de10d=valorDePage-0x1:_0x3de10d=0x1;removerConteudoDiv(document[_0x474fc7(0x150)](_0x474fc7(0x154)));var _0x4a83bf=_0x474fc7(0x126)+avancar+')\x22><i\x20class=\x22material-icons\x22>forward</i></a>',_0x3de10d='<a\x20id=\x22prev\x22\x20class=\x22prev\x20item-center\x22\x20onclick=\x22voltarPagina('+_0x3de10d+_0x474fc7(0x114);document[_0x474fc7(0x150)]('setasBusca')[_0x474fc7(0x151)]=_0x4a83bf+_0x3de10d,document[_0x474fc7(0x150)](_0x474fc7(0x15d))[_0x474fc7(0xfa)][_0x474fc7(0x11c)]='block',document[_0x474fc7(0x150)](_0x474fc7(0x148))[_0x474fc7(0xfa)][_0x474fc7(0x11c)]=_0x474fc7(0x164),window[_0x474fc7(0x16a)](0x0,0x0);}function proximaPagina(_0x44e131){var _0x168c22=_0x14affb;totalPage>=_0x44e131&&(valorDePage++,removerConteudoDiv(document[_0x168c22(0x150)]('ofertas12')),inicio(),SetasPage());}function voltarPagina(_0x4585c3){var _0x15623f=_0x14affb;valorDePage>0x1&&(removerConteudoDiv(document[_0x15623f(0x150)](_0x15623f(0x113))),valorDePage--,inicio(),SetasPage());}async function removerConteudoDiv(_0x2a2e3f){var _0x1e9506=_0x14affb;if(_0x2a2e3f[_0x1e9506(0x14c)]!=null)while(_0x2a2e3f[_0x1e9506(0x161)]()){_0x2a2e3f['removeChild'](_0x2a2e3f['firstChild']);}}}
+//Para teste 35809558 m
+var IdSource = "";
+
+//sourceId salva para usar
+var query = location.search.slice(1);
+var partes = query.split("&");
+var data = {};
+partes.forEach(function (parte) {
+    var chaveValor = parte.split("=");
+    var chave = chaveValor[0];
+    var valor = chaveValor[1];
+    data[chave] = valor;
+});
+
+if(data.sourceId != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.sourceId);
+}
+if(data.sourceid != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.sourceid);
+}
+
+if(data.id != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.id);
+}
+if(data.Id != undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", data.Id);
+}
+
+if(localStorage.getItem("sourceIDEcoPlay0001238") == "undefined" ||
+ localStorage.getItem("sourceIDEcoPlay0001238") == undefined){
+ localStorage.setItem("sourceIDEcoPlay0001238", 37546834);
+}
+//Fim sourceID salva para usar
+
+
+
+//FUNÇÕES UTEIS
+//SEO URL
+function ToSeoUrl(url) {
+        
+  // make the url lowercase         
+  var encodedUrl = url.toString().toLowerCase(); 
+
+  // replace & with and           
+  encodedUrl = encodedUrl.split(/\&+/).join("-and-")
+
+  // remove invalid characters 
+  encodedUrl = encodedUrl.split(/[^a-z0-9]/).join("-");       
+
+  // remove duplicates 
+  encodedUrl = encodedUrl.split(/-+/).join("-");
+
+  // trim leading & trailing characters 
+  encodedUrl = encodedUrl.trim('-'); 
+
+  return encodedUrl; 
+}
+
+
+// moeda brasileira
+function moedaBRL(valor){
+	return valor.toLocaleString('pt-br', {minimumFractionDigits: 2});
+}
+
+//FUNÇÕES UTEIS
+
+
+if (data.produto != undefined) {
+	
+
+document.getElementById("Page-Produto").style.display = "block";
+
+
+		setTimeout(function(){
+    
+				//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element = document.querySelector('#ShoppingEconomizaPlay');
+				const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+
+				window.scrollTo({
+ 					 top: topPos, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				});
+				
+				},3000);
+
+
+var offer_id = data.offerid;
+var store_id = data.storeid;
+
+
+//Paginas certas
+var numero_salvo = data.page;
+page_number = parseInt(numero_salvo, 10);	
+page_number = page_number + 1;
+
+
+//Busca Sitemap
+var busca = "smartphone";
+if (data.busca != undefined){
+	busca = String(decodeURIComponent(data.busca));
+}
+//Busca Sitemap
+
+
+//Api lomadee inicialize
+var lomadee_api_setup;
+//fim api lomadee inicialize
+
+//Valor pagina para setar pagina
+var valorDePage = page_number ;
+//Total de pagina
+var totalPage = 0;
+
+//Para permitir buscar ou simplismente apresentar produto
+var buscando = false;
+if (data.buscando != undefined) {
+buscando = true
+}
+
+//inicio
+//Usando o sourceId armazenado
+if(localStorage.getItem("sourceIDEcoPlay0001238") != undefined){
+	IdSource = localStorage.getItem("sourceIDEcoPlay0001238");	
+	
+	lomadee_api_setup = {
+		enviromnent : 'production', //sandbox ou production
+		appToken : '1637850452838f7948983',
+		sourceId : IdSource
+	}
+	
+	
+	//buscando true permite buscar por palavra
+	if (buscando == false) {
+		//Inicio
+		CarregarProdutoID(false);
+	}
+	else {
+		CarregarProdutoID(true);
+		}
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+//Para pré carregar imagem e impedir que a pagina
+//fique lenta esperando
+async function preLoadImg(imgURL, id) {
+	
+	for (i = 0; i < imgURL.length; i++){
+	
+		var myCategImgPre = new Image(48, 48);
+		myCategImgPre.src = imgURL[i].thumbnail;
+		myCategImgPre.setAttribute('class','imgErrorCateg'+i);
+		myCategImgPre.setAttribute('itemprop','image');
+		myCategImgPre.setAttribute('data-pin-description', imgURL[i].name );
+		myCategImgPre.setAttribute('alt', imgURL[i].name );
+		
+		
+		//envia a imagem
+		document.getElementById(id + i).appendChild(myCategImgPre);
+		
+		document.querySelector('.imgErrorCateg'+i).addEventListener('error', function () {
+
+			var div = document.createElement('div');
+					div.classList.add('imgCategError');
+					//div.innerText = '';
+					this.replaceWith(div);
+			});
+   }
+	
+}
+
+
+
+
+
+
+function CarregarProdutoID(buscando){
+var query = '';
+if (buscando == false) {
+	query = '/offer/_id/'+offer_id+'?storeId='+store_id+'&sourceId=' + IdSource;
+	
+}
+else {
+	query = '/offer/_search?size=12&page=' + valorDePage + '&keyword='+busca+'&minPrice=300';
+	
+	}
+	
+	//Onde vai adicionar no DOM HTMl	
+	var oferta_principal = document.getElementById("oferta_principal");
+	var product_name = document.getElementById("product-name");
+	
+
+
+	lomadeeAPIv3.search(query, function (response) {
+	
+		var meuObject = response.offers;
+		
+		oferta_principal.innerHTML = '<div id="preCarregaImg'+0+'" class="img-product"></div>'
+		
+		//Alguns produtos não tem installment
+		var prestacao = "";
+		var installment = "";
+		
+		try {
+		if (meuObject[0].installment.value != undefined) {
+			installment = meuObject[0].installment.value;
+		}
+		var quantity = ""
+		if (meuObject[0].installment.quantity != undefined) {
+			quantity = meuObject[0].installment.quantity;			
+			
+			prestacao = 'Ou <b>'+quantity+'x de R$'+moedaBRL(installment);
+		}
+	}catch (errorRecurso) {
+		prestacao = ""
+		installment = "";
+	}		
+	
+		
+		product_name.innerHTML = '<br /><br /><span itemprop="description" class="name">'+meuObject[0].name+'</span><br /><br /><p class="store">'+meuObject[0].store.name+'</p><br /><!--Grid dentro de grid--><div class="my-grid-container x"><div class="my-grid-item alinhar-left"><p class="price"><span class="offer-label"> a partir de </span><strong itemprop="price" >R$ '+moedaBRL(meuObject[0].price)+'</strong></p><p class="prestacao">'+prestacao+'</b></p></div><div class="my-grid-item y"><a title="'+meuObject[0].name+'" target="_blank" href="'+meuObject[0].link+'"><div class="ofertaIrLoja">IR Á LOJA</div></a></div></div>'
+		
+	
+		//Para carregar as imagem
+		preLoadImg(meuObject, 'preCarregaImg');
+		
+		
+
+
+		});	
+		
+		//Compare Preços
+		ComparePrecos(busca);
+			
+		
+		
+}
+
+//FIM PRINCIPAL OFERTAS
+
+
+
+//Compare Preços
+function ComparePrecos(busca) {
+	
+	//Spiner carregando
+	var spiner = document.getElementById("carregaOfertasShowCupons2").style;
+	spiner.display = 'block';	
+
+	
+	var query = '/offer/_search?size=12&page=' + valorDePage + '&keyword='+busca+'&minPrice=300';
+	
+	//Onde vai adicionar no DOM HTMl	
+	var mydivconteudo = document.getElementById("listCompareProduct");
+	
+	lomadeeAPIv3.search(query, function (response) {
+		
+		var meuObject = response.offers;
+	
+		//Para o Smartphones baratos grid
+		//Para deifinir qual pagina carregar
+		//Caso clique em uma das ofertas da lista
+		var my_page = valorDePage;
+		totalPage = parseInt(response.pagination.totalPage, 10);
+		if (totalPage >= valorDePage + 1) {
+			my_page = valorDePage;
+		}
+		else {
+				my_page = valorDePage - 1;
+			}
+			
+	
+	//Para carregar as informações dos produtos
+	for (i = 0; i < meuObject.length; i++){
+	
+			var url_amigavel = ToSeoUrl(meuObject[i].name)	
+	
+	
+			var mydiv = document.createElement('div');			
+			mydiv.setAttribute('class','produtos item-center');
+			
+			
+			var my_URL = 'https://www.economizaplay.com.br/produto?produto='+url_amigavel+'&offerid='+meuObject[i].id+'&storeid='+meuObject[i].store.id+'&sourceid='+IdSource+'&page='+my_page+'&busca=' + busca;
+			
+			
+			mydiv.innerHTML = '<div id="preCarregaImgComp'+i+'" class="img-product"></div><div class="juntos-div"> <div class="loja">Na loja '+meuObject[i].store.name+'</div> <div class="descript-product"><p class="title-product">R$ '+moedaBRL(meuObject[i].price)+'</p><p class="descri-product">'+meuObject[i].name+'</p><p></p><p class="category-product"> <span></span></p></div><a class="btt-product" href="'+my_URL+'"><div class="faixa-product item-center">+ Detalhes</div></a></div>';
+			
+			
+			
+			mydivconteudo.appendChild(mydiv);
+			}
+			
+		
+
+				//Termina spiner carregamento
+				spiner.display = 'none';	
+
+			
+				//Para carregar as imagem
+				preLoadImg(meuObject, 'preCarregaImgComp');
+				
+			
+		
+	}, function(error){
+				
+				if(error.status != 404){
+					//Problema no cliente, sem internet
+				}
+				else{
+					//Problema no servidor
+					
+					spiner.display = "none";
+					
+					var link_amazon = 'https://www.amazon.com.br/gp/search?_encoding=UTF8&tag=economizaplay-20&linkCode=ur2&linkId=2cb135290c9a3a90333d7533f6acd4c2&camp=1789&creative=9325&keywords=' + busca;
+					
+					mydivconteudo.innerHTML = "<div class='amazon-txt item-center'><p><b>CONFIRA O PREÇO NA AMAZON</b></p></div><a  href='"+link_amazon+"' id='amazon-link-id' target='_blank'><div class='amazon-product'><div><img src=''/></div><div><p>"+busca+"</p></div><div><img height='110' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg-V7SR7dlGyXJktZ3dw1fSbtoic6nNOtD0Kq-Po58yd-OWaHfSAjuE5mCAfRbUzFtw6xIAs1z52SxcoI06n6gFTaAYw63X03CidTBzWXpxcy0ne87W8IWf6_7ON2xp3-lCjY3Qc2_apN1rV5hj-tVwv61HuMWl3LtY3GAjNUKPM1RL3w85WQaE9puLg/s16000/images.png'/></div></div>";
+				
+				}
+			
+		});	
+	
+
+}
+
+
+
+}//data.produto != undefined Começa o Inicio
+else {
+	
+document.getElementById("Page-Inicio").style.display = "block";
+
+
+
+//Busca Sitemap
+var busca = "smartphone";
+if (data.busca != undefined){
+	
+	busca = String(decodeURIComponent(data.busca));
+	
+	
+		setTimeout(function(){
+				//Scroll até o Shopping
+				//window.scrollTo(0, 300);			
+				const element2 = document.querySelector('#shopping-ecoplay');
+				const topPos2 = element2.getBoundingClientRect().top + window.pageYOffset;
+
+				window.scrollTo({
+ 					 top: topPos2, // scroll so that the element is at the top of the view
+					  behavior: 'smooth' // smooth scroll
+				});
+				
+				},3000);
+}
+//Busca Sitemap
+
+
+//Api lomadee inicialize
+var lomadee_api_setup;
+//fim api lomadee inicialize
+
+
+//filtros para pagina
+var filtro = 'rating';
+//Valor pagina para setar pagina
+var valorDePage = 1;
+//Total de pagina
+var totalPage = 0;
+
+
+//inicio
+//Usando o sourceId armazenado
+if(localStorage.getItem("sourceIDEcoPlay0001238") != undefined){
+	IdSource = localStorage.getItem("sourceIDEcoPlay0001238");	
+	
+	lomadee_api_setup = {
+		enviromnent : 'production', //sandbox ou production
+		appToken : '1637850452838f7948983',
+		sourceId : IdSource
+	}
+	
+	
+//inicia o inicio
+inicio();
+//Fim, validado e usando sourceID ou não.
+
+
+//setas
+SetasPage();
+
+}
+
+
+//Para pré carregar imagem e impedir que a pagina
+//fique lenta esperando
+async function preLoadImg(imgURL) {
+	
+	for (i = 0; i < imgURL.length; i++){
+	
+		var myCategImgPre = new Image(48, 48);
+		myCategImgPre.src = imgURL[i].thumbnail;
+		myCategImgPre.setAttribute('class','imgErrorCateg'+i);
+		
+		//envia a imagem
+		document.getElementById("preCarregaImg"+i).appendChild(myCategImgPre);
+		
+		document.querySelector('.imgErrorCateg'+i).addEventListener('error', function () {
+
+			var div = document.createElement('div');
+					div.classList.add('imgCategError');
+					//div.innerText = '';
+					this.replaceWith(div);
+			});
+   }
+	
+}
+
+
+//Tecla Enter
+//Para pegar a tecla enter, para o Buscar
+const inputBuscasKey = document.getElementById("searchInicio");
+inputBuscasKey.addEventListener('keyup', function(e){
+var key = e.which || e.keyCode;
+if(key == 13){
+    inicio();
+
+inputBuscasKey.blur();
+
+}
+});
+
+
+
+//Para iniciar a pagina inicial
+function inicio() {
+	
+	//Busca do input
+if (document.getElementById("searchInicio").value != "") {
+busca =  document.getElementById("searchInicio").value;
+}
+	
+//Spiner carregando
+var spiner = document.getElementById("carregaOfertasShowCupons").style;
+spiner.display = 'block';	
+
+
+//Fazer busca tradicional
+var query = '/offer/_search?size=12&page=' + valorDePage + '&keyword='+busca+'&minPrice=300';
+
+//Onde vai adicionar no DOM HTMl	
+var mydivconteudo = document.getElementById("ofertas12");
+removerConteudoDiv("mydivconteudo");
+
+mydivconteudo.innerHTML = '<div style="width:90%;" align="left" id="ErrorBuscas"> <h4 style="color:steelblue;">Infelizmente não encontramos mais nenhum resultado.</h4> <br> <p>Sugestões:</p> <br> <ul> <li style="margin-bottom:5px;">Certifique-se de que nenhuma palavra contém erros ortográficos;</li> <li>Tente utilizar outras palavras chave.</li> </ul> </div>';
+document.getElementById("ErrorBuscas").style.display = 'none';
+
+
+		
+	
+lomadeeAPIv3.search(query, function (response) {
+	
+	var meuObject = response.offers;
+	
+	totalPage = response.pagination.totalPage;
+	
+	//Para carregar as informações dos produtos
+	for (i = 0; i < meuObject.length; i++){
+	
+			var url_amigavel = ToSeoUrl(meuObject[i].name)	
+	
+	
+			var mydiv = document.createElement('div');			
+			mydiv.setAttribute('class','produtos item-center');
+			
+			var my_URL = 'https://www.economizaplay.com.br/produto?produto='+url_amigavel+'&offerid='+meuObject[i].id+'&storeid='+meuObject[i].store.id+'&sourceid='+IdSource+'&page=0&busca=' + busca;
+			
+			mydiv.innerHTML = '<div id="preCarregaImg'+i+'" class="img-product"></div><div class="juntos-div"><div class="descript-product"><p class="title-product">R$ '+moedaBRL(meuObject[i].price)+'</p><p class="descri-product">'+meuObject[i].name+'</p><p></p><p class="category-product"> <span></span></p></div><a class="btt-product" href="'+my_URL+'" ><div class="faixa-product item-center">+ Detalhes</div></a></div>';
+			
+			
+			
+			mydivconteudo.appendChild(mydiv);
+			
+		
+	}
+	
+	
+	//Termina spiner carregamento
+	spiner.display = 'none';	
+	
+	
+	//Para carregar as imagem
+	preLoadImg(meuObject);
+	
+	
+
+	
+
+}, function(error){
+				
+				if(error.status != 404){
+					//Problema no cliente, sem internet
+				}
+				else{
+					//Problema no servidor
+					
+					spiner.display = "none";
+					document.getElementById("ErrorBuscas").style.display = 'block';
+				
+				}
+			
+		});	
+	
+}
+
+
+
+//Toda a configuração das setas de avançar e voltar pagina
+var avancar = 1;
+var voltar = 1;
+function SetasPage() {
+
+		avancar = valorDePage + 1;
+			
+		if(valorDePage > 1){
+			voltar = valorDePage - 1;
+		}
+		else {
+			voltar = 1;		
+		}
+		
+		 removerConteudoDiv(document.getElementById("setasBusca"));
+	
+		
+			var proximo = '<a id="next" class="next item-center" onclick="proximaPagina('+avancar+')"><i class="material-icons">forward</i></a>';
+			var voltar = '<a id="prev" class="prev item-center" onclick="voltarPagina('+voltar+')"><i style="transform:rotate(180deg);" class="material-icons">forward</i></a>';
+			
+			//Setas de buscas e de compare preços
+			document.getElementById("setasBusca").innerHTML = proximo + voltar;
+			document.getElementById("next").style.display = "block";
+			document.getElementById("prev").style.display = "block";
+			
+			
+			window.scrollTo(0,0); 
+}
+
+
+function proximaPagina(number){
+	
+	if(totalPage >= number){
+		valorDePage++;
+		removerConteudoDiv(document.getElementById("ofertas12"));
+	
+		inicio();
+		SetasPage();
+}
+	
+}
+function voltarPagina(number){
+	
+	if(valorDePage > 1){
+	  removerConteudoDiv(document.getElementById("ofertas12"));
+	
+	  valorDePage--;
+	  inicio();
+	  SetasPage();
+	 }
+}
+
+
+//Excluir conteudo de uma div
+async function removerConteudoDiv(element){
+	//Remove conteudo anterior
+if(element.firstChild != null){
+	while (element.hasChildNodes()) {
+
+		element.removeChild(element.firstChild); 
+							   
+	}
+}
+	
+}
+
+
+
+}//Inicio
