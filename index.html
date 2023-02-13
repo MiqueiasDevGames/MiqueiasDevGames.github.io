@@ -1,41 +1,279 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Miqueias Games</title>
-      <style>
-        @font-face {
-           font-family: 'Disko';
-           src: url('fonts/Disko.ttf');
-           url('fonts/Disko.ttf') format('truetype'),
-           font-weight: normal;
-           font-style: normal;
-        }
+<html>
 
-        h1{
-          font-family: "Disko";
-          }
-
-        
-       .item-center{
-          display:flex!important;
-          flex-wrap:wrap!important;
-          align-items: center;
-          justify-content:center!important;
-           text-align:center!important;
-        }
-      a{
-        font-size: 16px;
-        }
+  <head>
+      <script src="papaparse.min.js"></script>
       
-      </style>
-    </head>
-    <body>
-     
-      <div class="item-center">
-        <h1>Estou desenvolvendo alguns games bem legais, de uma olhada:</h1>
-      </div>
-       <div class="item-center">
-         <a href="https://play.google.com/store/apps/dev?id=6783055013520683450" >GOOGLE PLAY</a>
-      </div>
-    </body>
-  </html>
+      
+    <script src="https://accounts.google.com/gsi/client" onload="initClient()" async defer></script>
+  </head>
+  
+  <body>
+  
+    <script>   
+      var client;
+      var access_token;
+
+      function initClient() {
+        client = google.accounts.oauth2.initTokenClient({
+          client_id: '423021994854-gedvo46m3mbedms3bkdska8lshfc5dbc.apps.googleusercontent.com',
+          scope: 'https://www.googleapis.com/auth/blogger \
+                  https://www.googleapis.com/auth/blogger.readonly',
+          callback: (tokenResponse) => {
+            access_token = tokenResponse.access_token;
+          },
+        });
+      }
+      function getToken() {
+        client.requestAccessToken();
+      }
+      function revokeToken() {
+        google.accounts.oauth2.revoke(access_token, () => {console.log('access token revoked')});
+      }
+      function loadCalendar() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://www.googleapis.com/calendar/v3/calendars/primary/events');
+        xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
+        xhr.send();
+      }
+      
+      
+      
+      /**
+ 		* Takes a raw CSV string and converts it to a JavaScript object.
+ 		* @param {string} text The raw CSV string.
+ 		* @param {string[]} headers An optional array of headers to use. If none are
+ 		* given, they are pulled from the first line of `text`.
+ 		* @param {string} quoteChar A character to use as the encapsulating character.
+ 		* @param {string} delimiter A character to use between columns.
+ 		* @returns {object[]} An array of JavaScript objects containing headers as keys
+ 		* and row entries as values.
+ 		*/
+		function csvToJson(text, headers, quoteChar = '"', delimiter = ',') {
+  			const regex = new RegExp(`\\s*(${quoteChar})?(.*?)\\1\\s*(?:${delimiter}|$)`, 'gs');
+
+  			const match = line => [...line.matchAll(regex)]
+   		 .map(m => m[2])  // we only want the second capture group
+   		 .slice(0, -1);   // cut off blank match at the end
+
+  			const lines = text.split('\n');
+ 			const heads = headers ?? match(lines.shift());
+
+  			return lines.map(line => {
+    			return match(line).reduce((acc, cur, i) => {
+     			// Attempt to parse as a number; replace blank matches with `null`
+      		const val = cur.length <= 0 ? null : Number(cur) || cur;
+     			const key = heads[i] ?? `extra_${i}`;
+      		return { ...acc, [key]: val };
+    		}, {});
+  			});
+		}
+      
+      
+          var myconfig ={
+	delimiter: "",	// auto-detect
+	newline: "",	// auto-detect
+	quoteChar: '"',
+	escapeChar: '"',
+	header: true,
+	transformHeader: undefined,
+	dynamicTyping: false,
+	preview: 0,
+	encoding: "",
+	worker: false,
+	comments: false,
+	step: undefined,
+	complete: undefined,
+	error: undefined,
+	download: false,
+	downloadRequestHeaders: undefined,
+	downloadRequestBody: undefined,
+	skipEmptyLines: false,
+	chunk: undefined,
+	chunkSize: undefined,
+	fastMode: undefined,
+	beforeFirstChunk: undefined,
+	withCredentials: undefined,
+	transform: undefined,
+	delimitersToGuess: [',', '\t', '|', ';', Papa.RECORD_SEP, Papa.UNIT_SEP]
+};
+
+
+
+
+
+      
+      
+		//Blogger 
+		
+		//JSON SHOPEE Get fff.json
+		var object_shopee;
+		function get_json_shopee(){
+		  var xhr = new XMLHttpRequest();
+		  
+		  xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+           var myArr = Papa.parse(xhr.responseText, myconfig);
+           object_shopee = myArr.data;
+           console.log(object_shopee);
+        }
+   	  };		  
+		  
+        xhr.open('GET', 'https://economizaplayposts.000webhostapp.com/shopee.csv', false);
+        xhr.setRequestHeader('Content-type', 'application/json;');
+        xhr.send();
+		}
+    		
+		
+		
+    	
+    	//Converter imagem para base64 usando php no servidor
+    	//https://economizaplayposts.000webhostapp.com/base64/image.php?image=
+    	var base64_image = "";
+		
+		function image_base64(shopee_url_image){
+		  var xhr = new XMLHttpRequest();
+		  
+		  xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+           var myArr = JSON.parse(this.responseText);
+           base64_image = myArr.img;
+           console.log("Converter imagem base64 ok!");
+        }
+   	  };		  
+		
+        xhr.open('GET', 'https://economizaplayposts.000webhostapp.com/base64/image.php?image=' + encodeURI(shopee_url_image), false);
+        xhr.setRequestHeader('Content-type', 'application/json;');
+        xhr.send();
+		}
+    
+    	
+    	//Blogger 
+		function blogger_api_get(mydata) {
+		  var xhr = new XMLHttpRequest();
+		  
+		   xhr.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+           
+              console.log("Postagem efetuada OK!");
+            }
+   	      };		  
+			
+		  
+          xhr.open('POST', 'https://www.googleapis.com/blogger/v3/blogs/4236550883175690716/posts/', false);
+          xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
+          xhr.setRequestHeader('Content-type', 'application/json;');
+        
+          xhr.send(mydata);
+		}
+    
+    
+        function play(){
+            //encher objeto json:  object_shopee  
+			get_json_shopee();  
+			
+			var contagem = document.getElementById("contagem"); 
+			
+			postBlogger();
+            
+        }
+        
+        const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+    	async function postBlogger(){
+
+			console.log("Inicio");
+			for(i=827; i < object_shopee.length; i++){
+			    
+			    await sleep(10000);
+			    
+				contagem.innerHTML ="<h1>" + i + "de " +object_shopee.length+ "</h1>";
+			
+			
+				
+					if (object_shopee[i].image_link == "undefined" || object_shopee[i].image_link == undefined ) {
+								console.log("image_ndefined");
+								
+						}else {
+							
+							//converter imagem para base64
+							var image3 = object_shopee[i].image_link;
+							
+						
+			     	        console.log(image3);
+				
+							image_base64(image3);  	
+							
+							
+							
+							var acerta2 = object_shopee[i].description.replace(/\>/g,"> <br />");
+							var acerta1 = acerta2.replace(/\./g, ". <br />");
+						
+							var acerta3 = acerta1.replace(/\?/g,"? <br />");
+							
+    	
+							//Shopee json dados
+							var shopee_title = object_shopee[i].title;
+							var shopee_description = acerta3;
+							
+							//console.log(shopee_description);
+							var shopee_image = '<img src="data:image/png;base64,'+ base64_image +'" alt="'+object_shopee[i].title+'" />';    
+
+    	
+    						var categoria1 = object_shopee[i].global_category1;
+    						var categoria2 = object_shopee[i].global_category2;
+    						var categoria3 = object_shopee[i].global_category3;
+          
+    
+     	 					//Fazer postagem para blogger
+							//dados a serem enviados pela solicitação POST
+							var mydata = JSON.stringify({
+  				 			"title": '' + shopee_title + '',
+  				 			
+ 				 			"content": '<div class="separator">' + shopee_image + ' </div><div><br />' + shopee_description + '</div>',
+ 				 			
+ 				 			"labels": ["EconomizaPlay","Promoção","Preço Baixo","Liquidação","Frete Grátis","Barato",categoria1,categoria2,categoria3]
+							});
+			
+			
+			                 
+			                //console.log(mydata);
+			                 
+							//POST
+							blogger_api_get(mydata);
+				
+						}
+			}
+					
+				
+			
+		
+		}
+		
+		
+		
+      
+      
+    </script>
+    <h1>Google Identity Services Authorization Token model</h1>
+    <button onclick="getToken();">Get access token</button><br><br>
+    <!--<button onclick="loadCalendar();">Load Calendar</button><br><br>-->
+    
+    <button onclick="play();">Blogger Api</button>
+    
+    <h1>BLOGGER API MASSIVE POSTS</h1>
+    <div id="contagem">Faltam 0 de 10</div>
+    
+    
+    
+
+    
+    
+  </body>
+  
+  
+  
+
+
+</html>
+
