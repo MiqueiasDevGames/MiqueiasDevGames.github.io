@@ -119,7 +119,7 @@
         }
    	  };		  
 		  
-        xhr.open('GET', 'https://economizaplayposts.000webhostapp.com/shopee.csv', false);
+        xhr.open('GET', 'http://economizaplay.atwebpages.com/arquivo.csv', false);
         xhr.setRequestHeader('Content-type', 'application/json;');
         xhr.send();
 		}
@@ -142,7 +142,7 @@
         }
    	  };		  
 		
-        xhr.open('GET', 'https://economizaplayposts.000webhostapp.com/base64/image.php?image=' + encodeURI(shopee_url_image), false);
+        xhr.open('GET', 'http://economizaplay.atwebpages.com/base64/image.php?image=' + encodeURI(shopee_url_image), false);
         xhr.setRequestHeader('Content-type', 'application/json;');
         xhr.send();
 		}
@@ -183,7 +183,7 @@
     	async function postBlogger(){
 
 			console.log("Inicio");
-			for(i=827; i < object_shopee.length; i++){
+			for(i=835; i < object_shopee.length; i++){
 			    
 			    await sleep(10000);
 			    
