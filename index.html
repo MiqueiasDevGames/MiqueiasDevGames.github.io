@@ -182,7 +182,7 @@ fetch(imageUrl)
     };
 
     // Faz a requisição para enviar a imagem
-    fetch(`https://www.googleapis.com/upload/blogger/v3/blogs/4236550883175690716/uploads`, requestOptions)
+    fetch(`https://www.googleapis.com/blogger/v3/blogs/4236550883175690716/uploads`, requestOptions)
       .then(response => response.json())
       .then(data => console.log(`URL da imagem: ${data.url}`))
       .catch(error => console.error(`Erro ao enviar a imagem: ${error}`));
