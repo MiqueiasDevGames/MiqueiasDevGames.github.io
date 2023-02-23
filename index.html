@@ -119,7 +119,7 @@
         }
    	  };		  
 		  
-        xhr.open('GET', 'https://economizaplay.atwebpages.com/arquivo.csv', false);
+        xhr.open('GET', 'https://economizaplay.ga/arquivo.csv', false);
         xhr.setRequestHeader('Content-type', 'application/json;');
         xhr.send();
 		}
@@ -142,13 +142,56 @@
         }
    	  };		  
 		
-        xhr.open('GET', 'https://economizaplay.atwebpages.com/base64/image.php?image=' + encodeURI(shopee_url_image), false);
+        xhr.open('GET', 'https://economizaplay.ga/base64/image.php?image=' + encodeURI(shopee_url_image), false);
         xhr.setRequestHeader('Content-type', 'application/json;');
         xhr.send();
 		}
     
     	
     	//Blogger 
+
+// URL da imagem que será enviada
+const imageUrl = 'https://lojapositivo.vteximg.com.br/arquivos/ids/158100_2';
+
+func my_upload_imagem(){
+// Faz o download da imagem em formato binário usando o fetch
+fetch(imageUrl)
+  .then(response => response.arrayBuffer())
+  .then(buffer => {
+    // Converte o conteúdo binário para base64
+    const base64Image = btoa(String.fromCharCode(...new Uint8Array(buffer)));
+
+    // Cria o objeto de metadados da imagem
+    const imageMetadata = {
+      'title': 'Título da imagem',
+      'description': 'Descrição da imagem',
+    };
+
+    // Cria o objeto de configuração da requisição
+    const requestOptions = {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + access_token,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        'kind': 'blogger#post',
+        'metadata': imageMetadata,
+        'data': base64Image,
+      }),
+    };
+
+    // Faz a requisição para enviar a imagem
+    fetch(`https://www.googleapis.com/upload/blogger/v3/blogs/4236550883175690716/uploads`, requestOptions)
+      .then(response => response.json())
+      .then(data => console.log(`URL da imagem: ${data.url}`))
+      .catch(error => console.error(`Erro ao enviar a imagem: ${error}`));
+  })
+  .catch(error => console.error(`Erro ao baixar a imagem: ${error}`));
+
+	    }	    
+	    
+	    //Blogger post
 		function blogger_api_get(mydata) {
 		  var xhr = new XMLHttpRequest();
 		  
@@ -260,6 +303,9 @@
     <!--<button onclick="loadCalendar();">Load Calendar</button><br><br>-->
     
     <button onclick="play();">Blogger Api</button>
+	  
+	  <button onclick="my_upload_imagem();">Image Teste</button>
+	  
     
     <h1>BLOGGER API MASSIVE POSTS</h1>
     <div id="contagem">Faltam 0 de 10</div>
