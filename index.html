@@ -2,6 +2,7 @@
 <html>
 
   <head>
+      <meta charset="UTF-8">
       <script src="papaparse.min.js"></script>
       
       
@@ -99,30 +100,42 @@
 };
 
 
+// Adiciona um evento de "drop" à zona de soltura
+    document.getElementById("drop_zone").addEventListener("drop", handleFileSelect, false);
 
+    // Impede que o navegador abra o arquivo quando solto na zona de soltura
+    function handleDragOver(evt) {
+      evt.stopPropagation();
+      evt.preventDefault();
+      evt.dataTransfer.dropEffect = "copy";
+    }
+    document.getElementById("drop_zone").addEventListener("dragover", handleDragOver, false);
 
+    // Processa o arquivo quando solto na zona de soltura
+    function handleFileSelect(evt) {
+      evt.stopPropagation();
+      evt.preventDefault();
 
-      
-      
-		//Blogger 
-		
-		//JSON SHOPEE Get fff.json
-		var object_shopee;
-		function get_json_shopee(){
-		  var xhr = new XMLHttpRequest();
-		  
-		  xhr.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-           var myArr = Papa.parse(xhr.responseText, myconfig);
-           object_shopee = myArr.data;
-           console.log(object_shopee);
-        }
-   	  };		  
-		  
-        xhr.open('GET', 'https://economizaplay.ga/arquivo.csv', false);
-        xhr.setRequestHeader('Content-type', 'application/json;');
-        xhr.send();
-		}
+      var files = evt.dataTransfer.files; // Obtém a lista de arquivos soltos
+
+      // Processa cada arquivo individualmente
+      for (var i = 0, f; f = files[i]; i++) {
+        var reader = new FileReader();
+
+        // Adiciona um evento de "onload" para converter o arquivo CSV para JSON quando carregado
+        reader.onload = function(event) {
+          var csv = event.target.result; // Obtém o conteúdo do arquivo CSV
+          
+          var results = Papa.parse(csv, myconfig); // Converte o CSV para JSON usando a biblioteca Papa.parse()
+          object_shopee = results.data; // Salva o resultado na variável object_shopee
+          console.log(object_shopee); // Exibe o resultado no console para fins de depuração
+		var liberar = document.getElementById("liberado");
+		liberar.innerHTML = "OK Pode Começar!";	
+        };
+
+        reader.readAsText(f); // Lê o arquivo como texto
+      }
+    }
     		
 		
 		
@@ -148,48 +161,7 @@
 		}
     
     	
-    	//Blogger 
-
-// URL da imagem que será enviada
-const imageUrl = 'https://lojapositivo.vteximg.com.br/arquivos/ids/158100_2';
-
-function my_upload_imagem(){
-// Faz o download da imagem em formato binário usando o fetch
-fetch(imageUrl)
-  .then(response => response.arrayBuffer())
-  .then(buffer => {
-    // Converte o conteúdo binário para base64
-    const base64Image = btoa(String.fromCharCode(...new Uint8Array(buffer)));
-
-    // Cria o objeto de metadados da imagem
-    const imageMetadata = {
-      'title': 'Título da imagem',
-      'description': 'Descrição da imagem',
-    };
-
-    // Cria o objeto de configuração da requisição
-    const requestOptions = {
-      method: 'POST',
-      headers: {
-        'Authorization': 'Bearer ' + access_token,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        'kind': 'blogger#post',
-        'metadata': imageMetadata,
-        'data': base64Image,
-      }),
-    };
-
-    // Faz a requisição para enviar a imagem
-    fetch(`https://www.googleapis.com/blogger/v3/blogs/4236550883175690716/uploads`, requestOptions)
-      .then(response => response.json())
-      .then(data => console.log(`URL da imagem: ${data.url}`))
-      .catch(error => console.error(`Erro ao enviar a imagem: ${error}`));
-  })
-  .catch(error => console.error(`Erro ao baixar a imagem: ${error}`));
-
-	    }	    
+    	//Blogger   
 	    
 	    //Blogger post
 		function blogger_api_get(mydata) {
@@ -213,7 +185,7 @@ fetch(imageUrl)
     
         function play(){
             //encher objeto json:  object_shopee  
-			get_json_shopee();  
+			//get_json_shopee();  
 			
 			var contagem = document.getElementById("contagem"); 
 			
@@ -260,7 +232,7 @@ fetch(imageUrl)
 							var shopee_description = acerta3;
 							
 							//console.log(shopee_description);
-							var shopee_image = '<img src="data:image/png;base64,'+ base64_image +'" alt="'+object_shopee[i].title+'" />';    
+							var shopee_image = '<img src="data:image/jpeg;base64,'+ base64_image +'" alt="'+object_shopee[i].title+'" />';    
 
     	
     						var categoria1 = object_shopee[i].global_category1;
@@ -303,14 +275,16 @@ fetch(imageUrl)
     <!--<button onclick="loadCalendar();">Load Calendar</button><br><br>-->
     
     <button onclick="play();">Blogger Api</button>
-	  
-	  <button onclick="my_upload_imagem();">Image Teste</button>
-	  
+	 
     
     <h1>BLOGGER API MASSIVE POSTS</h1>
     <div id="contagem">Faltam 0 de 10</div>
     
-    
+    <br />
+	  <h1>Arraste um arquivo CSV aqui para converter para JSON</h1>
+
+          <div id="drop_zone">Solte o arquivo aqui</div>
+	  <div id="liberado"></div>
     
 
     
