@@ -22,10 +22,10 @@
     <div id="contagem">Faltam 0 de 10</div>
     
     <br />
-	  <h1>Arraste um arquivo CSV aqui para converter para JSON</h1>
-
-          <div id="drop_zone">Solte o arquivo aqui</div>
-	  <div id="liberado"></div>
+	   <h1>Selecione um arquivo CSV para converter para JSON</h1>
+           <input type="file" id="fileinput">
+	  
+	   <div id="liberado"></div>
     
 	  
   
@@ -92,43 +92,29 @@
 	//dizer quando estiver pronto o csv
 	var liberar = document.getElementById("liberado");
 	    
-// Adiciona um evento de "drop" à zona de soltura
-    document.getElementById("drop_zone").addEventListener("drop", handleFileSelect, false);
+    var object_shopee;
 
-    // Impede que o navegador abra o arquivo quando solto na zona de soltura
-    function handleDragOver(evt) {
-      evt.stopPropagation();
-      evt.preventDefault();
-      evt.dataTransfer.dropEffect = "copy";
-    }
-    document.getElementById("drop_zone").addEventListener("dragover", handleDragOver, false);
+    // Adiciona um evento de "change" ao elemento de entrada do arquivo
+    document.getElementById("fileinput").addEventListener("change", handleFileSelect, false);
 
-    // Processa o arquivo quando solto na zona de soltura
+    // Processa o arquivo quando selecionado pelo usuário
     function handleFileSelect(evt) {
-      evt.stopPropagation();
-      evt.preventDefault();
+      var file = evt.target.files[0]; // Obtém o arquivo selecionado
 
-      var files = evt.dataTransfer.files; // Obtém a lista de arquivos soltos
+      var reader = new FileReader();
 
-      // Processa cada arquivo individualmente
-      for (var i = 0, f; f = files[i]; i++) {
-        var reader = new FileReader();
+      // Adiciona um evento de "onload" para converter o arquivo CSV para JSON quando carregado
+      reader.onload = function(event) {
+        var csv = event.target.result; // Obtém o conteúdo do arquivo CSV
+        
+        var results = Papa.parse(csv, myconfig); // Converte o CSV para JSON usando a biblioteca Papa.parse()
+        object_shopee = results.data; // Salva o resultado na variável object_shopee
+        console.log(object_shopee); // Exibe o resultado no console para fins de depuração
+	      liberar.innerHTML("OK! Liberado.");
+      };
 
-        // Adiciona um evento de "onload" para converter o arquivo CSV para JSON quando carregado
-        reader.onload = function(event) {
-          var csv = event.target.result; // Obtém o conteúdo do arquivo CSV
-          
-          var results = Papa.parse(csv, myconfig); // Converte o CSV para JSON usando a biblioteca Papa.parse()
-          object_shopee = results.data; // Salva o resultado na variável object_shopee
-          console.log(object_shopee); // Exibe o resultado no console para fins de depuração
-		
-		liberar.innerHTML = "OK Pode Começar!";	
-        };
-
-        reader.readAsText(f); // Lê o arquivo como texto
-      }
-    }
-    		
+      reader.readAsText(file); // Lê o arquivo como texto
+    }	
 		
 		
     	
