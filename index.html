@@ -40,35 +40,7 @@
       
       
       
-      /**
- 		* Takes a raw CSV string and converts it to a JavaScript object.
- 		* @param {string} text The raw CSV string.
- 		* @param {string[]} headers An optional array of headers to use. If none are
- 		* given, they are pulled from the first line of `text`.
- 		* @param {string} quoteChar A character to use as the encapsulating character.
- 		* @param {string} delimiter A character to use between columns.
- 		* @returns {object[]} An array of JavaScript objects containing headers as keys
- 		* and row entries as values.
- 		*/
-		function csvToJson(text, headers, quoteChar = '"', delimiter = ',') {
-  			const regex = new RegExp(`\\s*(${quoteChar})?(.*?)\\1\\s*(?:${delimiter}|$)`, 'gs');
-
-  			const match = line => [...line.matchAll(regex)]
-   		 .map(m => m[2])  // we only want the second capture group
-   		 .slice(0, -1);   // cut off blank match at the end
-
-  			const lines = text.split('\n');
- 			const heads = headers ?? match(lines.shift());
-
-  			return lines.map(line => {
-    			return match(line).reduce((acc, cur, i) => {
-     			// Attempt to parse as a number; replace blank matches with `null`
-      		const val = cur.length <= 0 ? null : Number(cur) || cur;
-     			const key = heads[i] ?? `extra_${i}`;
-      		return { ...acc, [key]: val };
-    		}, {});
-  			});
-		}
+     
       
       
           var myconfig ={
@@ -99,7 +71,9 @@
 	delimitersToGuess: [',', '\t', '|', ';', Papa.RECORD_SEP, Papa.UNIT_SEP]
 };
 
-
+	//dizer quando estiver pronto o csv
+	var liberar = document.getElementById("liberado");
+	    
 // Adiciona um evento de "drop" à zona de soltura
     document.getElementById("drop_zone").addEventListener("drop", handleFileSelect, false);
 
@@ -129,7 +103,7 @@
           var results = Papa.parse(csv, myconfig); // Converte o CSV para JSON usando a biblioteca Papa.parse()
           object_shopee = results.data; // Salva o resultado na variável object_shopee
           console.log(object_shopee); // Exibe o resultado no console para fins de depuração
-		var liberar = document.getElementById("liberado");
+		
 		liberar.innerHTML = "OK Pode Começar!";	
         };
 
