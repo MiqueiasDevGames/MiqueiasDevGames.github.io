@@ -110,7 +110,7 @@
         var results = Papa.parse(csv, myconfig); // Converte o CSV para JSON usando a biblioteca Papa.parse()
         object_shopee = results.data; // Salva o resultado na variável object_shopee
         console.log(object_shopee); // Exibe o resultado no console para fins de depuração
-	      liberar.innerHTML("OK! Liberado.");
+	      liberar.innerHTML = "OK! Liberado.";
       };
 
       reader.readAsText(file); // Lê o arquivo como texto
